@@ -1,0 +1,127 @@
+//sudoku 4x4;
+var sudoku = new Array (new Array(4), new Array(4), new Array(4), new Array(4));
+var output = "Your sudoku looks like this:\n";
+for(var rows  = 0; rows < 4; rows++) {
+   for(var cols = 0; cols < 4; cols++) {
+      sudoku[rows][cols] = parseInt(prompt("Enter your answer for row " + (rows+1) + " , column " + (cols+1)));
+      output+= sudoku[rows][cols] + " ";
+   }
+   output+="\n";
+}
+alert(output);
+var flagRows = true;
+for(var cols = 0; cols < 4; cols++) {
+   for(var i = 0; i < 4; i++) {
+      for(var j = i+1; j < 4; j++) {
+         if(sudoku[i][cols] === sudoku[j][cols]) {
+            flagRows = false;
+            break;
+         }
+      }
+      if (!flagRows) {
+         break;
+      }
+   }
+   if(!flagRows) {
+      break;
+   }
+}
+if(!flagRows) {
+   alert("Your sudoku is incorrect");
+}
+//else alert("correct");
+else {
+   var flagCols = true;
+   for(var rows = 0; rows < 4; rows++) {
+      for(var i = 0; i < 4; i++) {
+         for(var j = i+1; j < 4; j++) {
+            if(sudoku[rows][i] === sudoku[rows][j]) {
+               flagCols = false;
+               break;
+            }
+         }
+         if(!flagCols) {
+            break;
+         }
+      }
+      if(!flagCols) {
+         break;
+      }
+   }
+   if(!flagCols) {
+      alert("Your sudoku is incorrect");
+   } 
+   else {
+      var flagSquares = true;
+      var helpArray = [sudoku[0][0], sudoku[0][1], sudoku[1][0], sudoku[1][1]];
+      for(var i = 0; i < helpArray.length-1; i++) {
+         for(var j = i+1; j < helpArray.length - 1; j++) {
+            if(helpArray[i] === helpArray[j]) {
+               flagSquares = false;
+               break;
+            }
+         }
+         if(!flagSquares) {
+            break;
+         }
+      }
+      if(!flagSquares) {
+         alert("Your sudoku is incorrect");
+      }
+      //else alert("correct");
+      else {
+         helpArray = [sudoku[0][2], sudoku[0][3], sudoku[1][2], sudoku[1][3]];
+         for(var i = 0; i < helpArray.length-1; i++) {
+            for(var j = i+1; j < helpArray.length - 1; j++) {
+               if(helpArray[i] === helpArray[j]) {
+                  flagSquares = false;
+                  break;
+               }
+            }
+            if(!flagSquares) {
+               break;
+            }
+         }
+         if(!flagSquares) {
+            alert("Your sudoku is incorrect");
+         }
+         else {
+            helpArray = [sudoku[2][0], sudoku[2][1], sudoku[3][0], sudoku[3][1]];
+            for(var i = 0; i < helpArray.length-1; i++) {
+               for(var j = i+1; j < helpArray.length - 1; j++) {
+                  if(helpArray[i] === helpArray[j]) {
+                     flagSquares = false;
+                     break;
+                  }
+               }
+               if(!flagSquares) {
+                  break;
+               }
+            }
+            if(!flagSquares) {
+               alert("Your sudoku is incorrect");
+            }
+            else {
+               helpArray = [sudoku[2][0], sudoku[2][1], sudoku[3][0], sudoku[3][1]];
+               for(var i = 0; i < helpArray.length-1; i++) {
+                  for(var j = i+1; j < helpArray.length - 1; j++) {
+                     if(helpArray[i] === helpArray[j]) {
+                        flagSquares = false;
+                        break;
+                     }
+                  }
+                  if(!flagSquares) {
+                     break;
+                  }
+               }
+               if(!flagSquares) {
+                  alert("Your sudoku is incorrect");
+               }
+               else {
+                  alert("Your sudoku is correct");
+               }
+            }
+         }
+      }
+   }
+}

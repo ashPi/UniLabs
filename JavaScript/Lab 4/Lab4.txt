@@ -1,0 +1,78 @@
+1. var passW = prompt("Enter password");
+passW === "pancake" ? alert("Correct!") : alert("Incorrect");
+
+2. alert("Toss the coin");
+var coin = Math.random();
+coin <= 0.5 ? alert("HEADS") : alert("TAILS");
+
+3. var statement = confirm("Did you attend the lecture?") ? "did" : "didn`t";
+alert("You " + statement + " attend the lecture");
+
+4. var year;
+
+switch (parseInt(prompt("What year is now?"))%12) {
+case 0: year = "monkey"; break;
+case 1: year = "rooster"; break;
+case 2: year = "dog"; break;
+case 3: year = "pig"; break;
+case 4: year = "rat"; break;
+case 5: year = "ox"; break;
+case 6: year = "tiger"; break;
+case 7: year = "rabbit"; break;
+case 8: year = "dragon"; break;
+case 9: year = "snake"; break;
+case 10: year = "horse"; break;
+case 11: year = "sheep"; break;
+default : alert("The year you have entered is incorrect"); break; 
+}
+if (year) {
+   alert("This is the year of the " + year + " in the Chinese Zodiac");
+}
+
+5. switch (prompt("Enter your assessment grade:").toUpperCase()) {
+case ("A") : alert("Excellent"); break;
+case ("B") : alert("Very Good"); break;
+case ("C") : alert("Good"); break;
+case ("D") : alert("Pass"); break;
+case ("E") : alert("Almost a Pass"); break;
+case ("F") : alert("Fail"); break;
+default : alert("This is not a valid grade"); break;
+}
+
+6. var days;
+switch(prompt("Enter a month").toLowerCase().substring(0,3)) {
+case "jan": 
+case "mar":
+case "may":
+case "jul":
+case "aug":
+case "oct":
+case "dec": days = 31; break;
+case "apr":
+case "jun":
+case "sept":
+case "nov": days = 30; break;
+case "feb": days = 28; break;
+default : alert("This is not a valid month"); break;
+}
+if (days) alert("This month has " + days + " days.");
+
+7. ^^^^^^^^^^^
+
+8. var days;
+switch(prompt("Enter a month").toLowerCase().substring(0,3)) {
+case "jan": 
+case "mar":
+case "may":
+case "jul":
+case "aug":
+case "oct":
+case "dec": days = 31; break;
+case "apr":
+case "jun":
+case "sept":
+case "nov": days = 30; break;
+case "feb":  confirm("Is this a leap year?") ? days = 29 : days = 28; break;
+default : alert("This is not a valid month"); break;
+}
+if (days) alert("This month has " + days + " days.");

@@ -1,0 +1,190 @@
+1. //a) 
+var outerArray0 = [[2,7,4],
+                  [-2,3,5] ];
+var output = "";
+for(var row = 0; row < 2; row++) {
+   for(var col = 0; col < 3; col ++) {
+      output+= outerArray0[row][col] + " ";
+   }
+   output+= "\n";
+}
+alert(output);
+
+//b)
+var outerArray1 = new Array (new Array (2,1),
+                            new Array (5,3),
+                            new Array (3,7) );
+output = "";
+for(var row = 0; row < 3; row++) {
+   for(var col = 0; col < 2; col ++) {
+      output+= outerArray1[row][col] + " ";
+   }
+   output+= "\n";
+}
+alert(output);
+
+//c)
+var outerArray2 = [[6,5,7],
+                   [3,8,4],
+                   [4,9,6] ];
+output = "";
+for(var row = 0; row < 3; row++) {
+   for(var col = 0; col < 3; col ++) {
+      output+= outerArray2[row][col] + " ";
+   }
+   output+= "\n";
+}
+alert(output);
+
+
+2. //a)
+var array = new Array(3);
+for(var i = 0; i < 3; i++) {
+   array[i] = new Array (3);
+}
+var output = "";
+for(var row = 0; row < 3; row++) {
+   for(var col = 0; col < 3; col++) {
+      array[row][col] = 0;
+      output+= array[row][col] + " ";
+   }
+   output+= "\n";
+}
+alert(output);
+
+//b)
+var num = parseInt(prompt("Enter number of rows and cols"));
+var userArray = new Array(num);
+for(var i = 0; i < num; i++) {
+   userArray[i] = new Array(num);
+}
+var output = "";
+for(var row = 0; row < num; row++) {
+   for(var col = 0; col < num; col++) {
+      userArray[row][col] = 0;
+      output+= userArray[row][col] + " ";
+   }
+   output+= "\n";
+}
+alert(output);
+
+//c)
+var numRows = parseInt(prompt("Enter number of rows"));
+var numCols = parseInt(prompt("Enter number of cols"));
+
+var userArray = new Array(numRows);
+for(var i = 0; i < numRows; i++) {
+   userArray[i] = new Array(numCols);
+}
+var output = "";
+for(var row = 0; row < numRows; row++) {
+   for(var col = 0; col < numCols; col++) {
+      userArray[row][col] = 0;
+      output+= userArray[row][col] + " ";
+   }
+   output+= "\n";
+}
+alert(output);
+
+
+3. var myArray = [[3, -5, 8, -2, 7],
+               [4, 8, -3, 2, -8],
+               [-5, 8, -9, 4, 6],
+               [1, -6, 3, 9, -11],
+               [6, 8, -3, -5, 8]  ];
+var sum = 0;
+var output = "";
+for(var rows = 0; rows < myArray.length; rows++) {
+   for(var cols = 0; cols < myArray[0].length; cols++) {
+      sum+= myArray[rows][cols];
+      output+= myArray[rows][cols] + " ";
+   }
+   output+= "\n";
+}
+output+= "The sum of the array elements is " + sum;
+alert(output); 
+
+
+4. var num = parseInt(prompt("Enter number for rows and cols"));
+var randomArray = new Array(num);
+for(var i = 0; i < num; i++) {
+   randomArray[i] = new Array(num);
+}
+var output = "";
+for(var rows = 0; rows < num; rows++) {
+   for(var cols = 0; cols < num; cols++) {
+      randomArray[rows][cols] = Math.floor(Math.random()*100);
+      output+= randomArray[rows][cols] + " ";
+   }
+   output+= "\n";
+}
+alert(output);
+
+
+5. var raggedArray = new Array (new Array(3), new Array(2), new Array(6), new Array(4));
+var output = "";
+for(var rows = 0; rows < raggedArray.length; rows++) {
+   for(var cols = 0; cols < raggedArray[rows].length; cols++) {
+      raggedArray[rows][cols] = 0;
+      output+= raggedArray[rows][cols] + " ";
+   }
+   output+= "\n";
+}
+alert(output);
+
+
+6. var key = ["A", "B", "E", "C", "D", "A", "C", "B", "B", "E"];
+var correctAnswers = new Array(10);
+var responsesArray = [["A", "B", "C", "C", "B", "E", "C", "D", "A", "C"],
+                      ["D", "C", "D", "C", "D", "D", "E", "C", "E", "C"],
+                      ["E", "D", "E", "D", "C", "E", "C", "D", "D", "E"],
+                      ["E", "C", "E", "D", "A", "A", "E", "D", "C", "B"],
+                      ["C", "B", "D", "E", "C", "A", "A", "A", "B", "B"],
+                      ["D", "C", "D", "C", "D", "C", "C", "D", "B", "B"],
+                      ["E", "A", "B", "C", "E", "E", "E", "C", "C", "D"],
+                      ["B", "E", "B", "B", "A", "A", "B", "C", "D", "E"],
+                      ["B", "D", "A", "A", "C", "C", "A", "B", "B", "A"],
+                      ["A", "C", "C", "E", "C", "C", "A", "E", "B", "B"]  ];
+for(var i = 0; i < 10; i++) {
+   correctAnswers[i] = 0;
+}
+var responsesOutput = "";
+for(var rows = 0; rows < responsesArray.length; rows++) {
+   for(var cols = 0; cols < responsesArray[0].length; cols++) {
+      responsesOutput+= responsesArray[rows][cols] + " ";
+      if(responsesArray[rows][cols] === key[cols]) {
+         correctAnswers[rows]++;
+      }
+   }
+   responsesOutput+= "\n";
+}
+alert(responsesOutput);
+//alert(correctAnswers.toString());
+
+var grade = new Array(10);
+for(var i = 0; i < 10; i++) {
+   if(correctAnswers[i] > 7) {
+      grade[i] = "A";
+   }
+   else if(correctAnswers[i] > 5) {
+      grade[i] = "B";
+   }
+   else if(correctAnswers[i] > 3) {
+      grade[i] = "C";
+   }
+   else if(correctAnswers[i] === 3) {
+      grade[i] = "D";
+   }
+   else if(correctAnswers[i] === 2) {
+      grade[i] = "E";
+   }
+   else {
+   grade[i] = "F";
+   }
+}
+//alert(grade);
+var correctAnswersOutput = "";
+for(var i = 0; i < 10; i++) {
+   correctAnswersOutput+= "Student " + (i+1) + ": " + correctAnswers[i] + " correct answer(s), which is " + grade[i] + "\n";
+}
+alert(correctAnswersOutput);

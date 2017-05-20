@@ -1,0 +1,31 @@
+1A) alert("Computing is great?");
+1B) alert("Alice says \"Bob is here\"");
+1C) alert("The folder to use is c:\\home\\files");
+1D) alert("RGU\`s new campus");
+
+
+
+2. alert(" X \n XX \n XXX \n XXXX \n XXXXX ");
+
+
+3. alert(" XXXXX \n X      X \n X      X \n X      X \n XXXXX");
+
+4. output 1, 2, 3 are the same, just 2 and 3 use concatemnation;
+output 4 and 5 are also the same; concatenation 
+output 6 is "7" because "+" operates as an additional operator, not as a concatenator; that is because the "()" change the priority order;
+
+5. alert(" Hello " + prompt("Type your name:") + "\n Welcome to CM1015 \n We hope you enjoy the course");
+
+6. The  prompt() method returns a string, not a number
+alert("the result is " + (parseInt(prompt("Type a number:"))+1));
+
+7. alert(prompt("First person`s name") + " and " + prompt("Second person`s name") + " sitting in a tree, K.I.S.S.I.N.G.")
+
+
+Extra work:
+
+alert(prompt("Enter your name").toUpperCase());
+
+alert("The length of your text is "+prompt("Type random text").length + " characters, including the spaces spaces");
+
+alert(prompt("Enter random text here").replace(/a/g,"e"));

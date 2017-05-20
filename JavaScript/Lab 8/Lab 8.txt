@@ -1,0 +1,145 @@
+1. var letters = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+for(var i = 0; i < letters.length; i++) {
+   letters[i] = letters[i].length;
+}
+var output = "";
+for(var i = 0; i < letters.length; i++) {
+   output+= letters[i] + "\n";
+}
+alert(output);
+
+
+2. var numbers = new Array();
+var count = parseInt(prompt("How many elements does the array have?"));
+var output = "";
+for(var i = 0; i < count; i++) {
+   numbers[i] = Math.floor(Math.random()*100);
+   output+= numbers[i] + "\n";
+}
+alert(output);
+var newArray = [numbers[0], numbers[numbers.length-1]];
+output= "";
+for(var i = 0; i < 2; i++) {
+   output+= newArray[i] + "\n";
+}
+alert(output);
+
+
+3. var numbers = new Array();
+var count = parseInt(prompt("How many elements does the array have?"));
+var output = "";
+for(var i = 0; i < count; i++) {
+   numbers[i] = Math.floor(Math.random()*100);
+   output+= numbers[i] + "\n";
+}
+alert(output);
+var swap = numbers[0];
+numbers[0] = numbers[numbers.length-1];
+numbers[numbers.length-1] = swap;
+output = "";
+for(var i = 0; i < numbers.length; i++) {
+   output+=numbers[i] + "\n";
+}
+alert(output);
+
+
+4. var monthDays = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+var output = "";
+for(var i = 0; i < monthDays.length; i++) {
+   output += "Month " + (i+1) + " has " + monthDays[i] + " days\n";
+}
+alert(output);
+
+
+5. var temperature = new Array();
+var sum = 0;
+var output = "";
+for(var i = 0; i < 60/5; i++) {
+   temperature[i] = parseInt(prompt("Enter temperature value"));
+   sum+=temperature[i];
+   output+= temperature[i] + "\n";
+}
+output+= "The maximum temperature is " + Math.max.apply(null, temperature) + "\n";
+output+= "The minimum temperature is " + Math.min.apply(null, temperature) + "\n";
+output+= "The average temperature is " + sum/12 + "\n";
+alert(output);
+
+
+6. var marks = new Array(20);
+var passed = 0;
+var output = "";
+for(var i = 0;i < 20; i++) {
+   marks[i] = parseInt(prompt("Enter assessment mark"));
+   if (marks[i] >= 40) { 
+      passed++;
+   }
+   output+= marks[i] + "\n";
+}
+output+= passed + " students have passed and " + (20 - passed) + " students have failed\n";
+alert(output);
+
+
+7. var integers = new Array(10);
+var output = "";
+var evenNumbers = 0;
+var greaterThan14 = 0;
+var lessThan5 = 0;
+for(var  i = 0; i < 10; i++) {
+   integers[i] = Math.floor(Math.random() * (20 - 1) + 1);
+   if (integers[i] % 2 === 0) evenNumbers++;
+   if(integers[i] > 14) greaterThan14++;
+   if(integers[i] < 5) lessThan5++;
+}
+output+= integers.toString();
+output+= "\nThe difference between the largest and the smallest number is " + (Math.max.apply(null, integers) - Math.min.apply(null, integers)) + "\n";
+output+= "The number of even numbers in the array is " + evenNumbers + "\n";
+output+= "The number of integers greater than 14 is " + greaterThan14 + "\n";
+output+= "The number of integers less than 5 is " + lessThan5 + "\n";
+alert(output);
+
+
+
+8. var integers = new Array(10);
+var duplicatesRemoved = new Array();
+var output= "";
+for(var  i = 0; i < 10; i++) {
+   integers[i] = Math.floor(Math.random() * (6 - 1) + 1);
+}
+for(var i = 0, j = 0; i < 10; i++){
+   if (integers.indexOf(integers[i], i+1) < 0) {
+   duplicatesRemoved[j] = integers[i];
+   j++;
+   }
+}
+output += integers.toString() + "\n" + duplicatesRemoved.toString();
+alert(output);
+
+
+9. var winningTicket = new Array(6);
+var userTicket = new Array(6);
+
+for(var  i = 0; i < 6; i++) {
+   winningTicket[i] = Math.floor(Math.random() * (50 - 1) + 1);
+}
+alert(winningTicket.toString());
+for(var i = 0; i < 6; i++) {
+   var number;
+   var flag = true;
+   do {
+      number = parseInt(prompt("Enter a number between 1 and 50 (inclusively)"));
+   } while(number < 1 || number > 50 || userTicket.lastIndexOf(number) >= 0)
+   userTicket[i] = number;
+}
+alert(userTicket.toString());
+
+function compare(a,b){
+   return a-b;
+}
+alert(userTicket.sort(compare));
+var winningNumbers = 0;
+for(var i = 0; i < 6; i++) {
+   if(winningTicket.indexOf(userTicket[i]) >= 0) winningNumbers++;
+}
+var output = "You have " + winningNumbers + " winning numbers."
+if(winningNumbers === 6) output+= " Congratulations, you win!";
+alert(output);

@@ -1,0 +1,118 @@
+1. var asteriskNum = prompt("Enter the number of asterisks");
+var n=0;
+var line = "";
+while (n < asteriskNum) {
+  line+= "*";
+  n+= 1;
+}
+alert(line);
+
+
+2. var number = prompt("Enter a number to start the countdown");
+while (number > 0) {
+   alert(number);
+   number--;
+}
+
+
+3. var iterationsNum = prompt("Number of iterations:");
+var startingValue = prompt("Enter a starting value");
+var counter = 0;
+var funct;
+while(counter < iterationsNum) { 
+   funct= startingValue/2 + 1/startingValue;
+   alert("f(" + startingValue + ") = " + funct);
+   startingValue = funct;
+   counter++;
+}
+
+
+4. var valuesNum = prompt("What is the number of values you would like to enter?");
+var counter = 0;
+var sum = 0;
+while(counter < valuesNum) {
+   sum+= parseInt(prompt("Enter a value"));
+   counter++;
+}
+alert("The average of the values you entered is " + sum/valuesNum);
+
+
+5. var headsNum = 0;
+var tosses = 0;
+while(headsNum < 5){
+   alert("Toss the coin");
+   var coin = Math.random();
+   if (coin <= 0.5) {
+      alert("HEADS");
+      headsNum++;
+   }
+   else {
+      alert("TAILS");
+   }
+   tosses++;
+}
+alert("The number of tosses required is " + tosses);
+
+
+6. var userText = prompt("Enter your text here");
+var reversedText = "";
+var counter = 0;
+while(userText.length- counter > 0) {
+   reversedText+= userText.charAt(userText.length - 1 - counter);
+   counter++;
+}
+alert(reversedText);
+
+
+7. var computerScore = 0;
+var userScore = 0;
+var computerChoice;
+var userChoice;
+while(computerScore < 3 && userScore < 3) {
+   computerChoice = Math.floor((Math.random()*3) + 1);
+   userChoice = parseInt(prompt("Enter your choice as a number: \n 1 - paper;\n 2 - scissors;\n 3 - stone"));
+   switch (computerChoice) {
+      case 1: {
+                 if (userChoice === 1) {
+                    alert("User vs Computer : paper vs paper. This is a tie, nobody wins this round\n The current overall score is User vs Computer:" + userScore + " vs " + computerScore);
+                 }
+                 else if (userChoice === 2) {
+                    alert("User vs Computer : scissors vs paper. User wins this round\n The current overall score is User vs Computer:" + (userScore + 1 ) + " vs " + computerScore);
+                    userScore++;
+                 }
+                 else {
+                    alert("User vs Computer : stone vs paper. Computer wins this round\n The current overall score is User vs Computer:" + userScore + " vs " + (computerScore + 1));
+                    computerScore++;
+                 } break;
+      }
+      case 2: {
+                 if (userChoice === 1) {
+                    alert("User vs Computer : paper vs scissors. Computer wins this round\n The current overall score is User vs Computer:" + userScore + " vs " + (computerScore + 1));
+                    computerScore++;
+                 }
+                 else if (userChoice === 2) {
+                 alert("User vs Computer : scissors vs scissors. This is a tie, nobody wins this round\n The current overall score is User vs Computer:" + userScore + " vs " + computerScore);
+                 }
+                 else {
+                    alert("User vs Computer : stone vs scissors. User wins this round\n The current overall score is User vs Computer:" + (userScore + 1 ) + " vs " + computerScore);
+                    userScore++;
+                 }break;
+      }
+      case 3: {
+                 if (userChoice === 1) {
+                    alert("User vs Computer : paper vs stone. User wins this round\n The current overall score is User vs Computer:" + (userScore + 1 ) + " vs " + computerScore);
+                    userScore++;
+                 }
+                 else if (userChoice === 2) {
+                    alert("User vs Computer : scissors vs stone. Computer wins this round\n The current overall score is User vs Computer:" + userScore + " vs " + (computerScore + 1));
+                    computerScore++;
+                 }
+                 else {
+                    alert("User vs Computer : stone vs stone. This is a tie, nobody wins this round\n The current overall score is User vs Computer:" + userScore + " vs " + computerScore);
+                 }break;
+      }
+   }
+}
+if (computerScore === 3) {
+   alert("The computer won 3 rounds first and wins the game");
+}

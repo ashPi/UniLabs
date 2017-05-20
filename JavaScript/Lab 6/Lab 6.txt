@@ -1,0 +1,115 @@
+1. var mark = parseInt(prompt("Enter your mark"));
+   while(mark < 0 || mark > 100) {
+      mark = parseInt(prompt("THis is not a valid mark. Enter a new value"));
+   }
+   if (mark >= 40) {
+      alert("You have passed");
+   } else {
+      alert("You have failed");
+   }
+
+do {
+   var mark = parseInt(prompt("Enter a valid mark"));
+} while(mark < 0 || mark >100);
+if (mark >= 40) {
+   alert("You have passed");
+} else {
+   alert("You have failed");
+}
+
+do-while loop is more efficient.
+
+
+
+2. do {
+   var input = parseInt(prompt("Enter an integer from 1 to 12"));
+} while( input < 1 || input > 12);
+var string = "";
+for (var i = 1; i <= input; i++) {
+   if (i === 1) {
+     string+= i + " time " + input + " is " + i*input + "\n";
+   } else { 
+      string+= i + " times " + input + " is " + i*input + "\n";
+   }
+   }
+alert(string);  
+
+
+
+3. var number = parseInt(prompt("Enter a value"));
+var sum = 0;
+for (var i = 1; i <= number; i++) {
+   sum+= i;
+   }
+alert("The sum of the first " + number + " numbers is " + sum);
+
+
+4. var am =0;
+var esp=0;
+var lat= 0;
+var cap =0;
+do {
+   var choice = parseInt(prompt("[1] Americano\n[2]Espresso\n[3]Latte\n[4]Cappuccino\n[5]Display total number of drinks sold"))
+   switch (choice) {
+   case 1: {
+      alert("You have ordered an Americano");
+      am++;
+      break;
+   }
+   case 2: {
+      alert("You have ordered an Espresso");
+      esp++;
+      break;
+   }
+   case 3: {
+      alert("You have ordered an Latte");
+      lat++;
+      break;
+   }
+   case 4: {
+      alert("You have ordered an Cappuccino");
+      cap++;
+      break;
+   }
+   case 5: {
+      alert("You have ordered:\n" + am + " Americano(s)\n" + esp + " Espresso(s)\n" + lat + " Latte(s)\n" + cap + " Cappuccino(s)");
+      break;
+   }
+   default: {
+      alert("You have entered an invalid value. Please, try again");
+      break;
+   }
+   }
+} while(choice !== 5);
+
+
+5. do { 
+   var number = parseInt(prompt("Enter a natural number (a whole number > 0)"));
+} while(number <= 0);
+var string  = "The factors of " + number + " are ";
+for (var i = 0; i < number ; i++) {
+   if(number % i === 0) {
+      string+= i + "; ";
+   }
+}
+alert(string);
+
+
+6. do { 
+   var number = parseInt(prompt("Enter a natural number (a whole number > 0)"));
+} while(number <= 0);
+var string  = "The factors of " + number + " are ";
+var counter =0;
+for (var i = 1; i < number ; i++) {
+   if(number % i === 0) {
+      string+= i + "; ";
+      counter++
+   }
+}
+if (counter === 1){
+   string+= "\n This is a prime number";
+}
+alert(string);
+
+
+7.

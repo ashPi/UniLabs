@@ -1,0 +1,66 @@
+1. var arrayA = [2,3,4,5];
+var arrayB = arrayA;
+alert("A: " + arrayA + ";\nB:" + arrayB);
+arrayA[Math.floor(Math.random(4)] = prompt("Enter a new value:");
+alert("A: " + arrayA + ";\nB:" + arrayB);
+
+
+2. var sentence = "The quick brown fox jumps over the lazy dog";
+var words = sentence.split(" ");
+alert(words);
+var words = sentence.split("");
+while(words.indexOf(" ")>=0) {
+   words.splice(words.indexOf(" "), 1);
+}
+alert(words);
+//c1
+var wordsReversed = new Array(words.length);
+for(var j = 0, i = words.length-1; i >= 0; i--, j++) {
+   wordsReversed[j] = words[i];
+}
+alert(wordsReversed);
+//c2
+var wordsUpperCase = new Array(words.length);
+for(var i = 0; i < words.length-1; i++) {
+   wordsUpperCase[i] = words[i].toUpperCase();
+}
+alert(wordsUpperCase);
+// c3
+var wordsUpperLowerCase = new Array(words.length);
+for(var i = 0; i < words.length; i++) {
+   if(i % 2 == 0) wordsUpperLowerCase[i] = words[i].toUpperCase();
+   else wordsUpperLowerCase[i] = words[i].toLowerCase();
+}
+alert(wordsUpperLowerCase);
+
+
+3. The program asks the user to enter a word and saves that word in a variable named input. The second lline of the code declares a string variable and leaves it empty. Then new variable called stoppingPoint is created and is assigned a value of 0.
+With an if-else statement the program checkes wether the length of the user`s input is an even or an odd number and assigns the stoppingPoint vaiable a value equal to half the length of the user`s input. The stoppingPoint is then outputted;
+The code then goes through the string input via a for-loop and copies each character to the string output. The string output is then alerted.
+Basically, the code takes a user`s input in one variable and transfers it to another and then outputs it to the user.
+
+
+4. var lessThan = 0;
+var greaterThan = 0;
+var input = parseInt(prompt("Enter how many random numbers you want to be generated"));
+var counter = 0;
+
+while(counter < input) {
+   var randomNumber = Math.random();
+   if(randomNumber < 0.5 ) {
+      lessThan++;
+   } 
+   else {
+      greaterThan++;
+   }
+   counter++;
+}
+
+if(lessThan !== greaterThan) {
+   var output = "";
+   lessThan > moreThan ? output = "More random numbers less than 0.5 were generated" : output = "More random numbers greater than 0.5 were generated";
+   alert(g);
+}
+else {
+   alert("The generated random numbers less than 0.5 are as many as those greater than 0.5");
+}

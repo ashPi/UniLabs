@@ -1,0 +1,114 @@
+var ciphertext = "Ef fev nflcu yrmv svczvmvu ze kyv crjk pvrij fw kyv ezevkvveky tveklip kyrk kyzj nficu nrj svzex nrktyvu bvvecp reu tcfjvcp sp zekvcczxvetvj xivrkvi kyre drej reu pvk rj dfikrc rj yzj fne kyrk rj dve sljzvu kyvdjvcmvj rsflk kyvzi mrizflj tfetviej kyvp nviv jtilkzezjvu reu jkluzvu gviyrgj rcdfjk rj eriifncp rj r dre nzky r dztifjtfgv dzxyk jtilkzezjv kyv kirejzvek tivrklivj kyrk jnrid reu dlckzgcp ze r uifg fw nrkvi Pvk rtifjj kyv xlcw fw jgrtv dzeuj kyrk riv kf fli dzeuj rj flij riv kf kyfjv fw kyv svrjkj kyrk gvizjy zekvccvtkj mrjk reu tffc reu lejpdgrkyvkzt ivxriuvu kyzj vriky nzky vemzflj vpvj reu jcfncp reu jlivcp uivn kyvzi gcrej rxrzejk lj";
+//alert(ciphertext + " " + ciphertext.length);
+ciphertext = ciphertext.toUpperCase();       //cipher to Upper Case
+alert(ciphertext);
+
+//Testing
+/* var output = "";
+var countArray = new Array(26);             // initialising the array for letter occurrences
+for(var i = 0; i < ciphertext.length; i++) {
+   countArray[ciphertext.charCodeAt(i) - 65]++;
+   output+= ciphertext.charCodeAt(i) + " ";
+}
+alert(output);
+*/
+
+
+
+var charArray =""                              // removing spaces
+for(var i = 0; i < ciphertext.length ; i++) {   
+   if(ciphertext[i] !== " ") {
+      charArray+= ciphertext[i];
+   }
+}
+//alert(charArray + " " + charArray.length); 
+
+
+var output = "";
+var countArray = new Array(26);            // initialising the array for letter occurrences
+for(var i = 0; i < 26; i++) {
+   countArray[i] = 0;
+}
+for(var i = 0; i < ciphertext.length ; i++) {       // counting letter occurrences
+   countArray[charArray.charCodeAt(i) - 65]++;
+   output+= charArray.charCodeAt(i) + " ";
+}
+//alert(output + " " + charArray.length);
+//alert(countArray);
+
+
+//NB: PROBLEM!!!
+// var mainCharArray = charArray.split("");
+// var output = "";
+// var countArray = new Array(26);
+// for(var i = 0; i < 26; i++) {
+//     countArray[i] = 0;
+// }
+// for(var i = 0; i < ciphertext.length - 1; i++) {
+//     countArray[mainCharArray.toString().charCodeAt(i) - 65]++;
+//     output+= mainCharArray.toString().charCodeAt(i) + " ";
+// }
+// alert(output + " " + mainCharArray.length);
+//NB: PROBLEM!!!
+
+
+
+var mainCharArray = charArray.split("");         // array with Uppercase ciphertext without spaces
+//alert(mainCharArray.toString() + " " + mainCharArray.length);
+
+
+var letterCount = new Array (26);       // counting letter frequencies
+for(var i = 0; i < 26; i++) {
+   letterCount[i] = ((countArray[i]/mainCharArray.length) * 100).toFixed(1);
+}
+//alert(letterCount.toString());
+
+
+var mostCommon = parseFloat(letterCount[0]);                                                                          //          finding
+var secondMostCommon = parseFloat(letterCount[0]);                                                                    //          the 
+var mostCommonIndex = 0;                                                                                              //          frequency
+var secondMostCommonIndex = 0;                                                                                        //          and
+for(var i = 1; i < 26; i++) {                                                                                         //          the
+   if(mostCommon < parseFloat(letterCount[i])) {                                                                      //          index
+      mostCommon = parseFloat(letterCount[i]);                                                                        //          of
+      mostCommonIndex = i;                                                                                            //          the
+   }                                                                                                                  //          two
+   for(var j = 1; j < i; j++) {                                                                                       //          most
+      if (secondMostCommon < parseFloat(letterCount[j]) && parseFloat(letterCount[j]) < mostCommon) {                 //          common
+         secondMostCommon = parseFloat(letterCount[j]);                                                               //          letters
+         secondMostCommonIndex = j;                                                                                   //
+      }                                                                                                               //
+   }                                                                                                                  //
+}
+//alert(mostCommonIndex + " " + secondMostCommonIndex);                                                                                                               
+//alert(mostCommon + ": " + String.fromCharCode(mostCommonIndex + 65) + "\n" + secondMostCommon + ": " + String.fromCharCode(secondMostCommonIndex + 65));
+
+var mostCommonStandardIndex = "E".charCodeAt(0) - 65;   // calculating the index of the most commonly used letter in standard English
+//var secondMostCommonStandardIndex = "T".charCodeAt(0) - 65;
+//alert(mostCommonStandardIndex + " " + secondMostCommonStandardIndex);
+var shift = mostCommonStandardIndex - mostCommonIndex;    // calculating the shift
+//alert(shift);
+//alert(ciphertext);
+var array = ciphertext.split("");
+
+
+//Testing
+/*var help = "";
+alert(array);
+for(var i=0; i<array.length;i++) {
+   help+= array[i].toString().charCodeAt(0) + " ";
+  }
+alert(help); */
+
+
+for(var i = 0;i < array.length;i++) {                                        //
+   if(array[i] !== " ") {                                                    //
+      var newIndex = 65 + (array[i].toString().charCodeAt(0) - 65 + shift);  //
+      if (newIndex < 65) {                                                   //   deciphering
+         newIndex+= 26;                                                      //   the
+      }                                                                      //   text
+      array[i] = String.fromCharCode(newIndex);                              //
+   }                                                                         //
+}                                                                            //
+var decipheredText = array.join("");
+alert(decipheredText);
