@@ -1,0 +1,44 @@
+public class TestEmployeeAccident 
+{
+  public static void main(String args[]) 
+  {
+    Employee roger = new Employee("Roger", "McDermott");
+    Accident rMD = new Accident(roger, 1, "Sprained Ankle", "First Aid");
+    System.out.println(rMD.toString());
+    //---------------------------------------------------------------------
+    Employee john = new Employee();
+    john.setFirstName("John");
+    john.setLastName("John");
+    Accident jI = new Accident(john, 2, "Broken Arm", "Visit Causally");
+    System.out.println(jI.toString());
+    //---------------------------------------------------------------------
+    Employee mark = new Employee("Mark", "Zarb");
+    Accident mZ = new Accident();
+    mZ.setAccidentNumber(3);
+    mZ.setPerson(mark);
+    mZ.setDescription("Headache");
+    mZ.setOutcome("First Aid");
+    System.out.println(mZ.toString());
+    //---------------------------------------------------------------------
+    Employee chrisina = new Employee("Chrisina", "Jayne");
+    Accident cJ = new Accident(4, chrisina, "Radiation", "Hospital Admission");
+    System.out.println("Accident number: " + cJ.getAccidentNumber());
+    System.out.println("Employee first name: " + cJ.getPerson.getFirstName());
+    System.out.println("Employee second name: " + cJ.getPerson.getSecondName());
+    System.out.println("Accident: " + cJ.getDescription());
+    System.out.println("Outcome: " + cJ.getOutcome());
+    System.out.println("Serious?: " + cJ.isSerious());
+    //---------------------------------------------------------------------
+    Employee jay = new Employee("Jay", "Lytwynenko");
+    Accident jL = new Accidet(jay, 5, "Dislocated Shoulder", "Visit Casually");
+    System.out.println(jL.toString());
+    //---------------------------------------------------------------------
+    Employee audrey = new Employee("Audrey", "Fryer");
+    Accident aF = new Accident(6, audrey, "Minor Burns", "First Aid");
+    System.out.println(aF.toString());
+    //---------------------------------------------------------------------
+    Employee ian = new Employee("Ian", "Harris");
+    Accident iH = new Accident(7, ian, "Concussion", "Hospital Admission");
+    System.out.println(iH.toString());
+  }
+}

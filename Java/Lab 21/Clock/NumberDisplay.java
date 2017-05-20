@@ -1,0 +1,56 @@
+public class NumberDisplay 
+{
+  private int value;
+  private int limit;
+  
+  //-----------------Constructor----------------------------------------------
+  public NumberDisplay(int aLimit) 
+  {
+    value = 0;
+    limit = aLimit;
+  }
+  
+  //-----------------Getter Methods-------------------------------------------
+  
+  public int getValue() 
+  {
+    return value;
+  }
+  
+  public int getLimit() 
+  {
+    return limit;
+  }
+  
+  //-----------------Setter Methods--------------------------------------------
+  
+  public void setValue(int aValue) 
+  {
+    value = aValue;
+  }
+  
+  public void setLimit(int aLimit) 
+  {
+    limit = aLimit;
+  }
+  
+  //-----------------Other Methods--------------------------------------------
+  public String toString() 
+  {
+    String contents = "";
+    if(getValue() < 10) 
+    {
+      contents+="0" + getValue();
+    }
+    else 
+    {
+      contents+= getValue();
+    }
+    return contents;
+  }
+  
+  public void incrementValue() 
+  {
+    setValue((getValue() + 1) % getLimit());
+  }
+}

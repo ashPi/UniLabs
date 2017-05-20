@@ -1,0 +1,5 @@
+public class Test24Clock 
+{
+  Clock24 myClock = new Clock();
+  System.out.println(myClock.getTime());
+}

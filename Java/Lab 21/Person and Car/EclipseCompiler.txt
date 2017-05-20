@@ -1,0 +1,468 @@
+23 Mar 2017 15:30:06 GMT: Log 'EclipseCompiler.txt' opened: 23 Mar 2017 15:30:06 GMT with name C:\Users\s4et0\Desktop\Lab 21\Person and Car\EclipseCompiler.txt
+23 Mar 2017 15:34:17 GMT: diagnostics = javax.tools.DiagnosticCollector@29ed28
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@817dfd
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java]
+23 Mar 2017 15:34:17 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@291d5f' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 15:34:17 GMT: Compiler call returned
+23 Mar 2017 15:34:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c04ea9
+23 Mar 2017 15:34:17 GMT:  Kind = ERROR
+23 Mar 2017 15:34:17 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 22 ColNo = 5 Msg = 'The left-hand side of an assignment must be a variable'
+23 Mar 2017 15:34:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@108e826
+23 Mar 2017 15:34:17 GMT:  Kind = ERROR
+23 Mar 2017 15:34:17 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 23 ColNo = 5 Msg = 'The left-hand side of an assignment must be a variable'
+23 Mar 2017 15:34:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3258e8
+23 Mar 2017 15:34:17 GMT:  Kind = ERROR
+23 Mar 2017 15:34:17 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 24 ColNo = 5 Msg = 'The left-hand side of an assignment must be a variable'
+23 Mar 2017 15:34:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1740f98
+23 Mar 2017 15:34:17 GMT:  Kind = ERROR
+23 Mar 2017 15:34:17 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 25 ColNo = 11 Msg = 'setInsurance cannot be resolved or is not a field'
+23 Mar 2017 15:34:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d899a
+23 Mar 2017 15:34:17 GMT:  Kind = ERROR
+23 Mar 2017 15:34:17 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 25 ColNo = 34 Msg = 'getInsurance cannot be resolved or is not a field'
+23 Mar 2017 15:34:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@180325
+23 Mar 2017 15:34:17 GMT:  Kind = ERROR
+23 Mar 2017 15:34:17 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 27 ColNo = 5 Msg = 'milead cannot be resolved to a variable'
+23 Mar 2017 15:34:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ebfe16
+23 Mar 2017 15:34:17 GMT:  Kind = ERROR
+23 Mar 2017 15:34:17 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 27 ColNo = 14 Msg = 'aMIleage cannot be resolved to a variable'
+23 Mar 2017 15:34:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@164295c
+23 Mar 2017 15:34:17 GMT:  Kind = ERROR
+23 Mar 2017 15:34:17 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 56 ColNo = 12 Msg = 'Type mismatch: cannot convert from java.lang.String to Person'
+23 Mar 2017 15:34:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1933173
+23 Mar 2017 15:34:17 GMT:  Kind = ERROR
+23 Mar 2017 15:34:17 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 71 ColNo = 5 Msg = 'retrurn cannot be resolved to a type'
+23 Mar 2017 15:34:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d40d4f
+23 Mar 2017 15:34:17 GMT:  Kind = ERROR
+23 Mar 2017 15:34:17 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 124 ColNo = 7 Msg = 'contetnts cannot be resolved to a variable'
+23 Mar 2017 15:34:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1046ed
+23 Mar 2017 15:34:17 GMT:  Kind = ERROR
+23 Mar 2017 15:34:17 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java LineNo = 74 ColNo = 5 Msg = 'constents cannot be resolved to a variable'
+23 Mar 2017 15:34:45 GMT: diagnostics = javax.tools.DiagnosticCollector@134f54a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@3677f
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java]
+23 Mar 2017 15:34:45 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@f54433' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 15:34:45 GMT: Compiler call returned
+23 Mar 2017 15:34:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1555d2e
+23 Mar 2017 15:34:45 GMT:  Kind = ERROR
+23 Mar 2017 15:34:45 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java LineNo = 74 ColNo = 5 Msg = 'constents cannot be resolved to a variable'
+23 Mar 2017 15:34:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1689aeb
+23 Mar 2017 15:34:45 GMT:  Kind = ERROR
+23 Mar 2017 15:34:45 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 23 ColNo = 5 Msg = 'The left-hand side of an assignment must be a variable'
+23 Mar 2017 15:34:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@65f3af
+23 Mar 2017 15:34:45 GMT:  Kind = ERROR
+23 Mar 2017 15:34:45 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 24 ColNo = 5 Msg = 'The left-hand side of an assignment must be a variable'
+23 Mar 2017 15:34:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bed4e8
+23 Mar 2017 15:34:45 GMT:  Kind = ERROR
+23 Mar 2017 15:34:45 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 25 ColNo = 5 Msg = 'The left-hand side of an assignment must be a variable'
+23 Mar 2017 15:34:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cf51fc
+23 Mar 2017 15:34:45 GMT:  Kind = ERROR
+23 Mar 2017 15:34:45 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 26 ColNo = 11 Msg = 'setInsurance cannot be resolved or is not a field'
+23 Mar 2017 15:34:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4b216c
+23 Mar 2017 15:34:45 GMT:  Kind = ERROR
+23 Mar 2017 15:34:45 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 26 ColNo = 34 Msg = 'getInsurance cannot be resolved or is not a field'
+23 Mar 2017 15:34:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1aa5881
+23 Mar 2017 15:34:45 GMT:  Kind = ERROR
+23 Mar 2017 15:34:45 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 28 ColNo = 5 Msg = 'milead cannot be resolved to a variable'
+23 Mar 2017 15:34:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e5dc08
+23 Mar 2017 15:34:45 GMT:  Kind = ERROR
+23 Mar 2017 15:34:45 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 28 ColNo = 14 Msg = 'aMIleage cannot be resolved to a variable'
+23 Mar 2017 15:34:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b22e79
+23 Mar 2017 15:34:45 GMT:  Kind = ERROR
+23 Mar 2017 15:34:45 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 57 ColNo = 12 Msg = 'Type mismatch: cannot convert from java.lang.String to Person'
+23 Mar 2017 15:34:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fd2e82
+23 Mar 2017 15:34:45 GMT:  Kind = ERROR
+23 Mar 2017 15:34:45 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 72 ColNo = 5 Msg = 'retrurn cannot be resolved to a type'
+23 Mar 2017 15:34:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8e106c
+23 Mar 2017 15:34:45 GMT:  Kind = ERROR
+23 Mar 2017 15:34:45 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 125 ColNo = 7 Msg = 'contetnts cannot be resolved to a variable'
+23 Mar 2017 15:35:25 GMT: diagnostics = javax.tools.DiagnosticCollector@41ad7e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@21fba1
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java]
+23 Mar 2017 15:35:25 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@e202f5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 15:35:25 GMT: Compiler call returned
+23 Mar 2017 15:35:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d9af6e
+23 Mar 2017 15:35:25 GMT:  Kind = ERROR
+23 Mar 2017 15:35:25 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java LineNo = 74 ColNo = 5 Msg = 'constents cannot be resolved to a variable'
+23 Mar 2017 15:35:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14cda13
+23 Mar 2017 15:35:25 GMT:  Kind = ERROR
+23 Mar 2017 15:35:25 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 24 ColNo = 5 Msg = 'The left-hand side of an assignment must be a variable'
+23 Mar 2017 15:35:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fbe8b0
+23 Mar 2017 15:35:25 GMT:  Kind = ERROR
+23 Mar 2017 15:35:25 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 25 ColNo = 5 Msg = 'The left-hand side of an assignment must be a variable'
+23 Mar 2017 15:35:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2f00d1
+23 Mar 2017 15:35:25 GMT:  Kind = ERROR
+23 Mar 2017 15:35:25 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 26 ColNo = 11 Msg = 'setInsurance cannot be resolved or is not a field'
+23 Mar 2017 15:35:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2f76e5
+23 Mar 2017 15:35:25 GMT:  Kind = ERROR
+23 Mar 2017 15:35:25 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 26 ColNo = 34 Msg = 'getInsurance cannot be resolved or is not a field'
+23 Mar 2017 15:35:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b4b771
+23 Mar 2017 15:35:25 GMT:  Kind = ERROR
+23 Mar 2017 15:35:25 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 28 ColNo = 5 Msg = 'milead cannot be resolved to a variable'
+23 Mar 2017 15:35:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@337e9f
+23 Mar 2017 15:35:25 GMT:  Kind = ERROR
+23 Mar 2017 15:35:25 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 28 ColNo = 14 Msg = 'aMIleage cannot be resolved to a variable'
+23 Mar 2017 15:35:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3ec7c0
+23 Mar 2017 15:35:25 GMT:  Kind = ERROR
+23 Mar 2017 15:35:25 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 57 ColNo = 12 Msg = 'Type mismatch: cannot convert from java.lang.String to Person'
+23 Mar 2017 15:35:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1231dfc
+23 Mar 2017 15:35:25 GMT:  Kind = ERROR
+23 Mar 2017 15:35:25 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 72 ColNo = 5 Msg = 'retrurn cannot be resolved to a type'
+23 Mar 2017 15:35:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1702196
+23 Mar 2017 15:35:25 GMT:  Kind = ERROR
+23 Mar 2017 15:35:25 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 125 ColNo = 7 Msg = 'contetnts cannot be resolved to a variable'
+23 Mar 2017 15:35:34 GMT: diagnostics = javax.tools.DiagnosticCollector@199dbaa
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@17a1e8f
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java]
+23 Mar 2017 15:35:34 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@654045' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 15:35:34 GMT: Compiler call returned
+23 Mar 2017 15:35:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16e9159
+23 Mar 2017 15:35:34 GMT:  Kind = ERROR
+23 Mar 2017 15:35:34 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java LineNo = 74 ColNo = 5 Msg = 'constents cannot be resolved to a variable'
+23 Mar 2017 15:35:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@84b268
+23 Mar 2017 15:35:34 GMT:  Kind = ERROR
+23 Mar 2017 15:35:34 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 25 ColNo = 5 Msg = 'The left-hand side of an assignment must be a variable'
+23 Mar 2017 15:35:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e831c1
+23 Mar 2017 15:35:34 GMT:  Kind = ERROR
+23 Mar 2017 15:35:34 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 26 ColNo = 11 Msg = 'setInsurance cannot be resolved or is not a field'
+23 Mar 2017 15:35:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18bcdb7
+23 Mar 2017 15:35:34 GMT:  Kind = ERROR
+23 Mar 2017 15:35:34 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 26 ColNo = 34 Msg = 'getInsurance cannot be resolved or is not a field'
+23 Mar 2017 15:35:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3e7506
+23 Mar 2017 15:35:34 GMT:  Kind = ERROR
+23 Mar 2017 15:35:34 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 28 ColNo = 5 Msg = 'milead cannot be resolved to a variable'
+23 Mar 2017 15:35:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f89f1b
+23 Mar 2017 15:35:34 GMT:  Kind = ERROR
+23 Mar 2017 15:35:34 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 28 ColNo = 14 Msg = 'aMIleage cannot be resolved to a variable'
+23 Mar 2017 15:35:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6fd55c
+23 Mar 2017 15:35:34 GMT:  Kind = ERROR
+23 Mar 2017 15:35:34 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 57 ColNo = 12 Msg = 'Type mismatch: cannot convert from java.lang.String to Person'
+23 Mar 2017 15:35:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fa4d13
+23 Mar 2017 15:35:34 GMT:  Kind = ERROR
+23 Mar 2017 15:35:34 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 72 ColNo = 5 Msg = 'retrurn cannot be resolved to a type'
+23 Mar 2017 15:35:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e39baf
+23 Mar 2017 15:35:34 GMT:  Kind = ERROR
+23 Mar 2017 15:35:34 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 125 ColNo = 7 Msg = 'contetnts cannot be resolved to a variable'
+23 Mar 2017 15:35:42 GMT: diagnostics = javax.tools.DiagnosticCollector@e02e2
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1a2fb6e
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java]
+23 Mar 2017 15:35:42 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@59f8f5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 15:35:42 GMT: Compiler call returned
+23 Mar 2017 15:35:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@384052
+23 Mar 2017 15:35:42 GMT:  Kind = ERROR
+23 Mar 2017 15:35:42 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java LineNo = 74 ColNo = 5 Msg = 'constents cannot be resolved to a variable'
+23 Mar 2017 15:35:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13e1ec3
+23 Mar 2017 15:35:42 GMT:  Kind = ERROR
+23 Mar 2017 15:35:42 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 26 ColNo = 11 Msg = 'setInsurance cannot be resolved or is not a field'
+23 Mar 2017 15:35:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ea3fde
+23 Mar 2017 15:35:42 GMT:  Kind = ERROR
+23 Mar 2017 15:35:42 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 26 ColNo = 34 Msg = 'getInsurance cannot be resolved or is not a field'
+23 Mar 2017 15:35:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d39be2
+23 Mar 2017 15:35:42 GMT:  Kind = ERROR
+23 Mar 2017 15:35:42 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 28 ColNo = 5 Msg = 'milead cannot be resolved to a variable'
+23 Mar 2017 15:35:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7772ba
+23 Mar 2017 15:35:42 GMT:  Kind = ERROR
+23 Mar 2017 15:35:42 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 28 ColNo = 14 Msg = 'aMIleage cannot be resolved to a variable'
+23 Mar 2017 15:35:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@120ac71
+23 Mar 2017 15:35:42 GMT:  Kind = ERROR
+23 Mar 2017 15:35:42 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 57 ColNo = 12 Msg = 'Type mismatch: cannot convert from java.lang.String to Person'
+23 Mar 2017 15:35:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7b7484
+23 Mar 2017 15:35:42 GMT:  Kind = ERROR
+23 Mar 2017 15:35:42 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 72 ColNo = 5 Msg = 'retrurn cannot be resolved to a type'
+23 Mar 2017 15:35:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f5f9e2
+23 Mar 2017 15:35:42 GMT:  Kind = ERROR
+23 Mar 2017 15:35:42 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 125 ColNo = 7 Msg = 'contetnts cannot be resolved to a variable'
+23 Mar 2017 15:35:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@12ca3a4
+23 Mar 2017 15:35:42 GMT:  Kind = WARNING
+23 Mar 2017 15:35:42 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 8 ColNo = 19 Msg = 'The value of the field Car.isPetrol is not used'
+23 Mar 2017 15:35:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@175d9d4
+23 Mar 2017 15:35:42 GMT:  Kind = WARNING
+23 Mar 2017 15:35:42 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 95 ColNo = 16 Msg = 'The method displayWarning() from the type Car is never used locally'
+23 Mar 2017 15:35:58 GMT: diagnostics = javax.tools.DiagnosticCollector@a0d62d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@378c71
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java]
+23 Mar 2017 15:35:58 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1278d98' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 15:35:58 GMT: Compiler call returned
+23 Mar 2017 15:35:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@101b19e
+23 Mar 2017 15:35:58 GMT:  Kind = ERROR
+23 Mar 2017 15:35:58 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java LineNo = 74 ColNo = 5 Msg = 'constents cannot be resolved to a variable'
+23 Mar 2017 15:35:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17de073
+23 Mar 2017 15:35:58 GMT:  Kind = ERROR
+23 Mar 2017 15:35:58 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 28 ColNo = 5 Msg = 'milead cannot be resolved to a variable'
+23 Mar 2017 15:35:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5ef131
+23 Mar 2017 15:35:58 GMT:  Kind = ERROR
+23 Mar 2017 15:35:58 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 28 ColNo = 14 Msg = 'aMIleage cannot be resolved to a variable'
+23 Mar 2017 15:35:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a10d5c
+23 Mar 2017 15:35:58 GMT:  Kind = ERROR
+23 Mar 2017 15:35:58 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 57 ColNo = 12 Msg = 'Type mismatch: cannot convert from java.lang.String to Person'
+23 Mar 2017 15:35:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1bcdbb7
+23 Mar 2017 15:35:58 GMT:  Kind = ERROR
+23 Mar 2017 15:35:58 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 72 ColNo = 5 Msg = 'retrurn cannot be resolved to a type'
+23 Mar 2017 15:35:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@156d58b
+23 Mar 2017 15:35:58 GMT:  Kind = ERROR
+23 Mar 2017 15:35:58 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 125 ColNo = 7 Msg = 'contetnts cannot be resolved to a variable'
+23 Mar 2017 15:35:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@766169
+23 Mar 2017 15:35:58 GMT:  Kind = WARNING
+23 Mar 2017 15:35:58 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 8 ColNo = 19 Msg = 'The value of the field Car.isPetrol is not used'
+23 Mar 2017 15:35:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1644396
+23 Mar 2017 15:35:58 GMT:  Kind = WARNING
+23 Mar 2017 15:35:58 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 95 ColNo = 16 Msg = 'The method displayWarning() from the type Car is never used locally'
+23 Mar 2017 15:36:03 GMT: diagnostics = javax.tools.DiagnosticCollector@188a728
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@115388b
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java]
+23 Mar 2017 15:36:03 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1721f5e' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 15:36:03 GMT: Compiler call returned
+23 Mar 2017 15:36:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@808b9e
+23 Mar 2017 15:36:03 GMT:  Kind = ERROR
+23 Mar 2017 15:36:03 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java LineNo = 74 ColNo = 5 Msg = 'constents cannot be resolved to a variable'
+23 Mar 2017 15:36:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13b22e
+23 Mar 2017 15:36:03 GMT:  Kind = ERROR
+23 Mar 2017 15:36:03 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 28 ColNo = 15 Msg = 'aMIleage cannot be resolved to a variable'
+23 Mar 2017 15:36:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c46505
+23 Mar 2017 15:36:03 GMT:  Kind = ERROR
+23 Mar 2017 15:36:03 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 57 ColNo = 12 Msg = 'Type mismatch: cannot convert from java.lang.String to Person'
+23 Mar 2017 15:36:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cb90ba
+23 Mar 2017 15:36:03 GMT:  Kind = ERROR
+23 Mar 2017 15:36:03 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 72 ColNo = 5 Msg = 'retrurn cannot be resolved to a type'
+23 Mar 2017 15:36:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1dd3426
+23 Mar 2017 15:36:03 GMT:  Kind = ERROR
+23 Mar 2017 15:36:03 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 125 ColNo = 7 Msg = 'contetnts cannot be resolved to a variable'
+23 Mar 2017 15:36:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@306ef1
+23 Mar 2017 15:36:03 GMT:  Kind = WARNING
+23 Mar 2017 15:36:03 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 8 ColNo = 19 Msg = 'The value of the field Car.isPetrol is not used'
+23 Mar 2017 15:36:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@187d87f
+23 Mar 2017 15:36:03 GMT:  Kind = WARNING
+23 Mar 2017 15:36:03 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 95 ColNo = 16 Msg = 'The method displayWarning() from the type Car is never used locally'
+23 Mar 2017 15:36:07 GMT: diagnostics = javax.tools.DiagnosticCollector@16c830d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@949982
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java]
+23 Mar 2017 15:36:07 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1c74440' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 15:36:07 GMT: Compiler call returned
+23 Mar 2017 15:36:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f47e08
+23 Mar 2017 15:36:07 GMT:  Kind = ERROR
+23 Mar 2017 15:36:07 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java LineNo = 74 ColNo = 5 Msg = 'constents cannot be resolved to a variable'
+23 Mar 2017 15:36:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e07a71
+23 Mar 2017 15:36:07 GMT:  Kind = ERROR
+23 Mar 2017 15:36:07 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 28 ColNo = 15 Msg = 'aMIleage cannot be resolved to a variable'
+23 Mar 2017 15:36:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bb1eab
+23 Mar 2017 15:36:07 GMT:  Kind = ERROR
+23 Mar 2017 15:36:07 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 57 ColNo = 12 Msg = 'Type mismatch: cannot convert from java.lang.String to Person'
+23 Mar 2017 15:36:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fb8374
+23 Mar 2017 15:36:07 GMT:  Kind = ERROR
+23 Mar 2017 15:36:07 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 72 ColNo = 5 Msg = 'retrurn cannot be resolved to a type'
+23 Mar 2017 15:36:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@29a39d
+23 Mar 2017 15:36:07 GMT:  Kind = ERROR
+23 Mar 2017 15:36:07 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 125 ColNo = 7 Msg = 'contetnts cannot be resolved to a variable'
+23 Mar 2017 15:36:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@30621b
+23 Mar 2017 15:36:07 GMT:  Kind = WARNING
+23 Mar 2017 15:36:07 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 8 ColNo = 19 Msg = 'The value of the field Car.isPetrol is not used'
+23 Mar 2017 15:36:07 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f66fb0
+23 Mar 2017 15:36:07 GMT:  Kind = WARNING
+23 Mar 2017 15:36:07 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 95 ColNo = 16 Msg = 'The method displayWarning() from the type Car is never used locally'
+23 Mar 2017 15:36:18 GMT: diagnostics = javax.tools.DiagnosticCollector@17f59e4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@32ba02
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java]
+23 Mar 2017 15:36:18 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@12f9e45' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 15:36:18 GMT: Compiler call returned
+23 Mar 2017 15:36:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b4ac0e
+23 Mar 2017 15:36:18 GMT:  Kind = ERROR
+23 Mar 2017 15:36:18 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java LineNo = 74 ColNo = 5 Msg = 'constents cannot be resolved to a variable'
+23 Mar 2017 15:36:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@95feb8
+23 Mar 2017 15:36:18 GMT:  Kind = ERROR
+23 Mar 2017 15:36:18 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 57 ColNo = 12 Msg = 'Type mismatch: cannot convert from java.lang.String to Person'
+23 Mar 2017 15:36:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@61f52
+23 Mar 2017 15:36:18 GMT:  Kind = ERROR
+23 Mar 2017 15:36:18 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 72 ColNo = 5 Msg = 'retrurn cannot be resolved to a type'
+23 Mar 2017 15:36:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@192e8ac
+23 Mar 2017 15:36:18 GMT:  Kind = ERROR
+23 Mar 2017 15:36:18 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 125 ColNo = 7 Msg = 'contetnts cannot be resolved to a variable'
+23 Mar 2017 15:36:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d4fb0c
+23 Mar 2017 15:36:18 GMT:  Kind = WARNING
+23 Mar 2017 15:36:18 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 8 ColNo = 19 Msg = 'The value of the field Car.isPetrol is not used'
+23 Mar 2017 15:36:18 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@83acb0
+23 Mar 2017 15:36:18 GMT:  Kind = WARNING
+23 Mar 2017 15:36:18 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 95 ColNo = 16 Msg = 'The method displayWarning() from the type Car is never used locally'
+23 Mar 2017 15:36:38 GMT: diagnostics = javax.tools.DiagnosticCollector@40bb00
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@10099ac
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java]
+23 Mar 2017 15:36:38 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1232eea' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 15:36:38 GMT: Compiler call returned
+23 Mar 2017 15:36:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1548e93
+23 Mar 2017 15:36:38 GMT:  Kind = ERROR
+23 Mar 2017 15:36:38 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java LineNo = 74 ColNo = 5 Msg = 'constents cannot be resolved to a variable'
+23 Mar 2017 15:36:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16c14
+23 Mar 2017 15:36:38 GMT:  Kind = ERROR
+23 Mar 2017 15:36:38 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 72 ColNo = 5 Msg = 'retrurn cannot be resolved to a type'
+23 Mar 2017 15:36:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7a6311
+23 Mar 2017 15:36:38 GMT:  Kind = ERROR
+23 Mar 2017 15:36:38 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 125 ColNo = 7 Msg = 'contetnts cannot be resolved to a variable'
+23 Mar 2017 15:36:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e8267b
+23 Mar 2017 15:36:38 GMT:  Kind = WARNING
+23 Mar 2017 15:36:38 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 8 ColNo = 19 Msg = 'The value of the field Car.isPetrol is not used'
+23 Mar 2017 15:36:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9b0583
+23 Mar 2017 15:36:38 GMT:  Kind = WARNING
+23 Mar 2017 15:36:38 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 95 ColNo = 16 Msg = 'The method displayWarning() from the type Car is never used locally'
+23 Mar 2017 15:37:03 GMT: diagnostics = javax.tools.DiagnosticCollector@d36690
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@16f9c70
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java]
+23 Mar 2017 15:37:03 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@152cd0f' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 15:37:03 GMT: Compiler call returned
+23 Mar 2017 15:37:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4ec08b
+23 Mar 2017 15:37:03 GMT:  Kind = ERROR
+23 Mar 2017 15:37:03 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java LineNo = 74 ColNo = 5 Msg = 'constents cannot be resolved to a variable'
+23 Mar 2017 15:37:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c42ad0
+23 Mar 2017 15:37:03 GMT:  Kind = ERROR
+23 Mar 2017 15:37:03 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 125 ColNo = 7 Msg = 'contetnts cannot be resolved to a variable'
+23 Mar 2017 15:37:03 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2456b8
+23 Mar 2017 15:37:03 GMT:  Kind = WARNING
+23 Mar 2017 15:37:03 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 95 ColNo = 16 Msg = 'The method displayWarning() from the type Car is never used locally'
+23 Mar 2017 15:38:38 GMT: diagnostics = javax.tools.DiagnosticCollector@57085d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1b227b1
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java]
+23 Mar 2017 15:38:38 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1739ea' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 15:38:38 GMT: Compiler call returned
+23 Mar 2017 15:38:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1db510c
+23 Mar 2017 15:38:38 GMT:  Kind = ERROR
+23 Mar 2017 15:38:38 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java LineNo = 74 ColNo = 5 Msg = 'constents cannot be resolved to a variable'
+23 Mar 2017 15:38:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@96d077
+23 Mar 2017 15:38:38 GMT:  Kind = WARNING
+23 Mar 2017 15:38:38 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 95 ColNo = 16 Msg = 'The method displayWarning() from the type Car is never used locally'
+23 Mar 2017 15:38:57 GMT: diagnostics = javax.tools.DiagnosticCollector@16454c7
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@a0f33d
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java]
+23 Mar 2017 15:38:57 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@6fe3' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 15:38:57 GMT: Compiler call returned
+23 Mar 2017 15:38:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a65a3a
+23 Mar 2017 15:38:57 GMT:  Kind = WARNING
+23 Mar 2017 15:38:57 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 95 ColNo = 16 Msg = 'The method displayWarning() from the type Car is never used locally'
+23 Mar 2017 16:02:30 GMT: diagnostics = javax.tools.DiagnosticCollector@45a51c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1beb80f
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java]
+23 Mar 2017 16:02:30 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1d0a1ab' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 16:02:31 GMT: Compiler call returned
+23 Mar 2017 16:02:31 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3cc389
+23 Mar 2017 16:02:31 GMT:  Kind = WARNING
+23 Mar 2017 16:02:31 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 95 ColNo = 16 Msg = 'The method displayWarning() from the type Car is never used locally'
+23 Mar 2017 16:02:41 GMT: diagnostics = javax.tools.DiagnosticCollector@178d763
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@38ac30
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java]
+23 Mar 2017 16:02:41 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@132cb0d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 16:02:41 GMT: Compiler call returned
+23 Mar 2017 16:02:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1477660
+23 Mar 2017 16:02:41 GMT:  Kind = WARNING
+23 Mar 2017 16:02:41 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 95 ColNo = 16 Msg = 'The method displayWarning() from the type Car is never used locally'
+23 Mar 2017 16:09:32 GMT: diagnostics = javax.tools.DiagnosticCollector@ad17f3
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@212c15
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java]
+23 Mar 2017 16:09:32 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@477b5c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 16:09:32 GMT: Compiler call returned
+23 Mar 2017 16:09:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b96454
+23 Mar 2017 16:09:32 GMT:  Kind = WARNING
+23 Mar 2017 16:09:32 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 95 ColNo = 16 Msg = 'The method displayWarning() from the type Car is never used locally'
+23 Mar 2017 16:09:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@5580fa
+23 Mar 2017 16:09:32 GMT:  Kind = ERROR
+23 Mar 2017 16:09:32 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java LineNo = 9 ColNo = 12 Msg = 'Duplicate local variable myGuy'
+23 Mar 2017 16:09:46 GMT: diagnostics = javax.tools.DiagnosticCollector@1263a29
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@b70047
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java]
+23 Mar 2017 16:09:46 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1894acd' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 16:09:47 GMT: Compiler call returned
+23 Mar 2017 16:09:47 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14a03fd
+23 Mar 2017 16:09:47 GMT:  Kind = WARNING
+23 Mar 2017 16:09:47 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 95 ColNo = 16 Msg = 'The method displayWarning() from the type Car is never used locally'
+23 Mar 2017 16:10:38 GMT: diagnostics = javax.tools.DiagnosticCollector@792643
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1c94c29
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java]
+23 Mar 2017 16:10:38 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@840e6' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 16:10:38 GMT: Compiler call returned
+23 Mar 2017 16:10:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d52d13
+23 Mar 2017 16:10:38 GMT:  Kind = WARNING
+23 Mar 2017 16:10:38 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 95 ColNo = 16 Msg = 'The method displayWarning() from the type Car is never used locally'
+23 Mar 2017 16:14:46 GMT: diagnostics = javax.tools.DiagnosticCollector@d6bee2
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@afc631
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java]
+23 Mar 2017 16:14:46 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1603049' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 16:14:46 GMT: Compiler call returned
+23 Mar 2017 16:14:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cf7a21
+23 Mar 2017 16:14:46 GMT:  Kind = ERROR
+23 Mar 2017 16:14:46 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 25 ColNo = 36 Msg = 'Syntax error, insert "AssignmentOperator Expression" to complete Assignment'
+23 Mar 2017 16:14:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@413b86
+23 Mar 2017 16:14:46 GMT:  Kind = ERROR
+23 Mar 2017 16:14:46 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java LineNo = 25 ColNo = 36 Msg = 'Syntax error, insert ";" to complete Statement'
+23 Mar 2017 16:14:46 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@523e7e
+23 Mar 2017 16:14:46 GMT:  Kind = ERROR
+23 Mar 2017 16:14:46 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java LineNo = 16 ColNo = 11 Msg = 'The method displayWarning() from the type Car is not visible'
+23 Mar 2017 16:14:53 GMT: diagnostics = javax.tools.DiagnosticCollector@95021b
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1986f71
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java]
+23 Mar 2017 16:14:53 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@e75047' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 16:14:53 GMT: Compiler call returned
+23 Mar 2017 16:14:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f27bda
+23 Mar 2017 16:14:53 GMT:  Kind = ERROR
+23 Mar 2017 16:14:53 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java LineNo = 16 ColNo = 11 Msg = 'The method displayWarning() from the type Car is not visible'
+23 Mar 2017 16:15:11 GMT: diagnostics = javax.tools.DiagnosticCollector@1edcab3
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@8418fc
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java]
+23 Mar 2017 16:15:11 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@358d49' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 16:15:11 GMT: Compiler call returned
+23 Mar 2017 16:15:14 GMT: diagnostics = javax.tools.DiagnosticCollector@63e343
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@5651b1
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java]
+23 Mar 2017 16:15:14 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@16a854c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 16:15:14 GMT: Compiler call returned
+23 Mar 2017 16:15:35 GMT: diagnostics = javax.tools.DiagnosticCollector@14b8d43
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@fd5600
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java]
+23 Mar 2017 16:15:35 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1fa06b8' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 16:15:35 GMT: Compiler call returned
+23 Mar 2017 16:16:18 GMT: diagnostics = javax.tools.DiagnosticCollector@a6b613
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@15c5647
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java]
+23 Mar 2017 16:16:18 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@718f3a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 16:16:18 GMT: Compiler call returned
+23 Mar 2017 16:16:43 GMT: diagnostics = javax.tools.DiagnosticCollector@5336fd
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@7e31d3
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java]
+23 Mar 2017 16:16:43 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@12c5d90' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 16:16:43 GMT: Compiler call returned
+23 Mar 2017 16:16:43 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f898e7
+23 Mar 2017 16:16:43 GMT:  Kind = ERROR
+23 Mar 2017 16:16:43 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java LineNo = 25 ColNo = 11 Msg = 'The method replacementNeeded() from the type Car is not visible'
+23 Mar 2017 16:17:09 GMT: diagnostics = javax.tools.DiagnosticCollector@12b87a6
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@101a20c
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java]
+23 Mar 2017 16:17:09 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@197709c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 16:17:09 GMT: Compiler call returned
+23 Mar 2017 16:17:09 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e63361
+23 Mar 2017 16:17:09 GMT:  Kind = ERROR
+23 Mar 2017 16:17:09 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java LineNo = 25 ColNo = 30 Msg = 'The method replacementNeeded() from the type Car is not visible'
+23 Mar 2017 16:17:23 GMT: diagnostics = javax.tools.DiagnosticCollector@96f6a7
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@11c3313
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java]
+23 Mar 2017 16:17:23 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@3b536c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 16:17:23 GMT: Compiler call returned
+23 Mar 2017 16:17:59 GMT: diagnostics = javax.tools.DiagnosticCollector@ce59b5
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1850941
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java]
+23 Mar 2017 16:17:59 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1868341' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 16:17:59 GMT: Compiler call returned
+23 Mar 2017 16:18:37 GMT: diagnostics = javax.tools.DiagnosticCollector@166349b
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@13b26dd
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java]
+23 Mar 2017 16:18:37 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1e84edc' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 16:18:37 GMT: Compiler call returned
+23 Mar 2017 16:18:37 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8206ed
+23 Mar 2017 16:18:37 GMT:  Kind = ERROR
+23 Mar 2017 16:18:37 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java LineNo = 26 ColNo = 21 Msg = 'flase cannot be resolved to a variable'
+23 Mar 2017 16:19:14 GMT: diagnostics = javax.tools.DiagnosticCollector@28b47a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@14e7ad9
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java]
+23 Mar 2017 16:19:14 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@7069d6' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 16:19:14 GMT: Compiler call returned
+23 Mar 2017 16:19:14 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@bcdcaf
+23 Mar 2017 16:19:14 GMT:  Kind = ERROR
+23 Mar 2017 16:19:14 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java LineNo = 26 ColNo = 21 Msg = 'flase cannot be resolved to a variable'
+23 Mar 2017 16:19:22 GMT: diagnostics = javax.tools.DiagnosticCollector@7e4b83
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1701d5e
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Person and Car\Person.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Car.java, C:\Users\s4et0\Desktop\Lab 21\Person and Car\Test.java]
+23 Mar 2017 16:19:22 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1ad9cb5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Person and Car;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+23 Mar 2017 16:19:22 GMT: Compiler call returned

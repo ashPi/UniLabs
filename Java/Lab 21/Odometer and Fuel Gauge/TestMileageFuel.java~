@@ -1,0 +1,10 @@
+public class TestMileageFuel 
+{
+  public static void main(String args[]) 
+  {
+    DistanceMeter myCar = new DistanceMeter();
+    System.out.println(myCar.toString());
+    System.out.println();
+    //----------------------------------------------
+  }
+}

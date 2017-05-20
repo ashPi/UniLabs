@@ -1,0 +1,651 @@
+26 Mar 2017 18:45:57 GMT: Log 'EclipseCompiler.txt' opened: 26 Mar 2017 18:45:57 GMT with name C:\Users\s4et0\Desktop\Lab 21\Clock\EclipseCompiler.txt
+26 Mar 2017 22:44:24 GMT: diagnostics = javax.tools.DiagnosticCollector@1fdc1d6
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@d4cd97
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\24HourClock.java]
+26 Mar 2017 22:44:24 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@10c080a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 22:44:24 GMT: Compiler call returned
+26 Mar 2017 22:44:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@50ddbf
+26 Mar 2017 22:44:24 GMT:  Kind = ERROR
+26 Mar 2017 22:44:24 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\24HourClock.java LineNo = 1 ColNo = 1 Msg = 'Syntax error, insert "enum Identifier" to complete EnumHeaderName'
+26 Mar 2017 22:44:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@158ee2d
+26 Mar 2017 22:44:24 GMT:  Kind = ERROR
+26 Mar 2017 22:44:24 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\24HourClock.java LineNo = 1 ColNo = 1 Msg = 'Syntax error, insert "EnumBody" to complete CompilationUnit'
+26 Mar 2017 22:44:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15d629c
+26 Mar 2017 22:44:24 GMT:  Kind = ERROR
+26 Mar 2017 22:44:24 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java LineNo = 40 ColNo = 5 Msg = 'string cannot be resolved to a type'
+26 Mar 2017 22:44:24 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b62951
+26 Mar 2017 22:44:24 GMT:  Kind = ERROR
+26 Mar 2017 22:44:24 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java LineNo = 47 ColNo = 7 Msg = 'contets cannot be resolved to a variable'
+26 Mar 2017 22:44:34 GMT: diagnostics = javax.tools.DiagnosticCollector@1c14d5d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@8e5534
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\24HourClock.java]
+26 Mar 2017 22:44:34 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1595558' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 22:44:34 GMT: Compiler call returned
+26 Mar 2017 22:44:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@876470
+26 Mar 2017 22:44:34 GMT:  Kind = ERROR
+26 Mar 2017 22:44:34 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\24HourClock.java LineNo = 1 ColNo = 14 Msg = 'Syntax error on token "24", delete this token'
+26 Mar 2017 22:44:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10f6872
+26 Mar 2017 22:44:34 GMT:  Kind = ERROR
+26 Mar 2017 22:44:34 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java LineNo = 40 ColNo = 5 Msg = 'string cannot be resolved to a type'
+26 Mar 2017 22:44:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16522d5
+26 Mar 2017 22:44:34 GMT:  Kind = ERROR
+26 Mar 2017 22:44:34 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java LineNo = 47 ColNo = 7 Msg = 'contets cannot be resolved to a variable'
+26 Mar 2017 22:44:58 GMT: diagnostics = javax.tools.DiagnosticCollector@1596255
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@3d20c4
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24 .java]
+26 Mar 2017 22:44:58 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@19d927a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 22:44:58 GMT: Compiler call returned
+26 Mar 2017 22:44:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@146180d
+26 Mar 2017 22:44:58 GMT:  Kind = ERROR
+26 Mar 2017 22:44:58 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24 .java LineNo = 1 ColNo = 14 Msg = 'The public type Clock24 must be defined in its own file'
+26 Mar 2017 22:44:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d37f6f
+26 Mar 2017 22:44:58 GMT:  Kind = ERROR
+26 Mar 2017 22:44:58 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java LineNo = 40 ColNo = 5 Msg = 'string cannot be resolved to a type'
+26 Mar 2017 22:44:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d9b202
+26 Mar 2017 22:44:58 GMT:  Kind = ERROR
+26 Mar 2017 22:44:58 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java LineNo = 47 ColNo = 7 Msg = 'contets cannot be resolved to a variable'
+26 Mar 2017 22:45:23 GMT: diagnostics = javax.tools.DiagnosticCollector@a8ee61
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@105dc1b
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24 .java, C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java]
+26 Mar 2017 22:45:23 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@13bffd0' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 22:45:23 GMT: Compiler call returned
+26 Mar 2017 22:45:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1db8410
+26 Mar 2017 22:45:23 GMT:  Kind = ERROR
+26 Mar 2017 22:45:23 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24 .java LineNo = 1 ColNo = 14 Msg = 'The public type Clock24 must be defined in its own file'
+26 Mar 2017 22:45:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13870f7
+26 Mar 2017 22:45:23 GMT:  Kind = ERROR
+26 Mar 2017 22:45:23 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java LineNo = 43 ColNo = 7 Msg = 'The local variable contents may not have been initialized'
+26 Mar 2017 22:45:23 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18331e3
+26 Mar 2017 22:45:23 GMT:  Kind = ERROR
+26 Mar 2017 22:45:23 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java LineNo = 47 ColNo = 7 Msg = 'The local variable contents may not have been initialized'
+26 Mar 2017 22:45:41 GMT: diagnostics = javax.tools.DiagnosticCollector@1a96702
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1b3f7da
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24 .java, C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java]
+26 Mar 2017 22:45:41 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@903e80' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 22:45:41 GMT: Compiler call returned
+26 Mar 2017 22:45:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17b6ec8
+26 Mar 2017 22:45:41 GMT:  Kind = ERROR
+26 Mar 2017 22:45:41 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24 .java LineNo = 1 ColNo = 14 Msg = 'The public type Clock24 must be defined in its own file'
+26 Mar 2017 23:04:30 GMT: diagnostics = javax.tools.DiagnosticCollector@9e2a08
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@b7f465
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24 .java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java]
+26 Mar 2017 23:04:30 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1a07401' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:04:30 GMT: Compiler call returned
+26 Mar 2017 23:04:30 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f0a6a5
+26 Mar 2017 23:04:30 GMT:  Kind = ERROR
+26 Mar 2017 23:04:30 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24 .java LineNo = 1 ColNo = 14 Msg = 'The public type Clock24 must be defined in its own file'
+26 Mar 2017 23:04:30 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c27f5d
+26 Mar 2017 23:04:30 GMT:  Kind = ERROR
+26 Mar 2017 23:04:30 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 4 ColNo = 14 Msg = 'Syntax error on token "println", Identifier expected after this token'
+26 Mar 2017 23:04:30 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d03dd2
+26 Mar 2017 23:04:30 GMT:  Kind = ERROR
+26 Mar 2017 23:04:30 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 4 ColNo = 3 Msg = 'Syntax error on token(s), misplaced construct(s)'
+26 Mar 2017 23:04:30 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d0e06e
+26 Mar 2017 23:04:30 GMT:  Kind = ERROR
+26 Mar 2017 23:04:30 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 4 ColNo = 39 Msg = 'Syntax error on token ")", delete this token'
+26 Mar 2017 23:04:30 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@24b63f
+26 Mar 2017 23:04:30 GMT:  Kind = ERROR
+26 Mar 2017 23:04:30 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24 .java LineNo = 10 ColNo = 19 Msg = 'NUmberDisplay cannot be resolved to a type'
+26 Mar 2017 23:04:30 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@18502b1
+26 Mar 2017 23:04:30 GMT:  Kind = ERROR
+26 Mar 2017 23:04:30 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24 .java LineNo = 15 ColNo = 5 Msg = 'The left-hand side of an assignment must be a variable'
+26 Mar 2017 23:04:30 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16399be
+26 Mar 2017 23:04:30 GMT:  Kind = ERROR
+26 Mar 2017 23:04:30 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24 .java LineNo = 39 ColNo = 8 Msg = 'mintes cannot be resolved to a variable'
+26 Mar 2017 23:04:30 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1dcc92c
+26 Mar 2017 23:04:30 GMT:  Kind = ERROR
+26 Mar 2017 23:04:30 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 3 ColNo = 25 Msg = 'Clock cannot be resolved to a type'
+26 Mar 2017 23:05:29 GMT: diagnostics = javax.tools.DiagnosticCollector@184c4ac
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1898654
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java]
+26 Mar 2017 23:05:29 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@526191' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:05:29 GMT: Compiler call returned
+26 Mar 2017 23:05:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@cb71aa
+26 Mar 2017 23:05:29 GMT:  Kind = ERROR
+26 Mar 2017 23:05:29 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 4 ColNo = 14 Msg = 'Syntax error on token "println", Identifier expected after this token'
+26 Mar 2017 23:05:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2d327e
+26 Mar 2017 23:05:29 GMT:  Kind = ERROR
+26 Mar 2017 23:05:29 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 4 ColNo = 3 Msg = 'Syntax error on token(s), misplaced construct(s)'
+26 Mar 2017 23:05:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@22f317
+26 Mar 2017 23:05:29 GMT:  Kind = ERROR
+26 Mar 2017 23:05:29 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 4 ColNo = 39 Msg = 'Syntax error on token ")", delete this token'
+26 Mar 2017 23:05:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a489ed
+26 Mar 2017 23:05:29 GMT:  Kind = ERROR
+26 Mar 2017 23:05:29 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 3 ColNo = 25 Msg = 'Clock cannot be resolved to a type'
+26 Mar 2017 23:05:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ffe0b2
+26 Mar 2017 23:05:29 GMT:  Kind = ERROR
+26 Mar 2017 23:05:29 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java LineNo = 15 ColNo = 5 Msg = 'The left-hand side of an assignment must be a variable'
+26 Mar 2017 23:05:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@469171
+26 Mar 2017 23:05:29 GMT:  Kind = ERROR
+26 Mar 2017 23:05:29 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java LineNo = 39 ColNo = 8 Msg = 'mintes cannot be resolved to a variable'
+26 Mar 2017 23:05:47 GMT: diagnostics = javax.tools.DiagnosticCollector@dd45f
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@270823
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java]
+26 Mar 2017 23:05:47 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1156e4c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:05:47 GMT: Compiler call returned
+26 Mar 2017 23:05:47 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c41c98
+26 Mar 2017 23:05:47 GMT:  Kind = ERROR
+26 Mar 2017 23:05:47 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 4 ColNo = 14 Msg = 'Syntax error on token "println", Identifier expected after this token'
+26 Mar 2017 23:05:47 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b8b222
+26 Mar 2017 23:05:47 GMT:  Kind = ERROR
+26 Mar 2017 23:05:47 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 4 ColNo = 3 Msg = 'Syntax error on token(s), misplaced construct(s)'
+26 Mar 2017 23:05:47 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b7b587
+26 Mar 2017 23:05:47 GMT:  Kind = ERROR
+26 Mar 2017 23:05:47 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 4 ColNo = 39 Msg = 'Syntax error on token ")", delete this token'
+26 Mar 2017 23:05:47 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@82cc26
+26 Mar 2017 23:05:47 GMT:  Kind = ERROR
+26 Mar 2017 23:05:47 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java LineNo = 15 ColNo = 5 Msg = 'The left-hand side of an assignment must be a variable'
+26 Mar 2017 23:05:47 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@262772
+26 Mar 2017 23:05:47 GMT:  Kind = ERROR
+26 Mar 2017 23:05:47 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java LineNo = 39 ColNo = 16 Msg = 'getValue cannot be resolved or is not a field'
+26 Mar 2017 23:05:59 GMT: diagnostics = javax.tools.DiagnosticCollector@10952a4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@b3a68d
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java]
+26 Mar 2017 23:05:59 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@9eb04f' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:05:59 GMT: Compiler call returned
+26 Mar 2017 23:05:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f9121f
+26 Mar 2017 23:05:59 GMT:  Kind = ERROR
+26 Mar 2017 23:05:59 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 4 ColNo = 14 Msg = 'Syntax error on token "println", Identifier expected after this token'
+26 Mar 2017 23:05:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d66e5e
+26 Mar 2017 23:05:59 GMT:  Kind = ERROR
+26 Mar 2017 23:05:59 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 4 ColNo = 3 Msg = 'Syntax error on token(s), misplaced construct(s)'
+26 Mar 2017 23:05:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a2d04d
+26 Mar 2017 23:05:59 GMT:  Kind = ERROR
+26 Mar 2017 23:05:59 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 4 ColNo = 39 Msg = 'Syntax error on token ")", delete this token'
+26 Mar 2017 23:05:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@131edc0
+26 Mar 2017 23:05:59 GMT:  Kind = ERROR
+26 Mar 2017 23:05:59 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java LineNo = 15 ColNo = 5 Msg = 'The left-hand side of an assignment must be a variable'
+26 Mar 2017 23:06:42 GMT: diagnostics = javax.tools.DiagnosticCollector@16528cc
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@51314b
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java]
+26 Mar 2017 23:06:42 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@9e273a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:06:42 GMT: Compiler call returned
+26 Mar 2017 23:06:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a964be
+26 Mar 2017 23:06:42 GMT:  Kind = ERROR
+26 Mar 2017 23:06:42 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java LineNo = 15 ColNo = 5 Msg = 'The left-hand side of an assignment must be a variable'
+26 Mar 2017 23:07:00 GMT: diagnostics = javax.tools.DiagnosticCollector@fd9a3e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@ad7971
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java]
+26 Mar 2017 23:07:00 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@efc9fb' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:07:00 GMT: Compiler call returned
+26 Mar 2017 23:08:51 GMT: diagnostics = javax.tools.DiagnosticCollector@1041957
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@8e87e0
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java]
+26 Mar 2017 23:08:51 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@fdd11c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:08:51 GMT: Compiler call returned
+26 Mar 2017 23:10:33 GMT: diagnostics = javax.tools.DiagnosticCollector@109d890
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@10a5001
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java]
+26 Mar 2017 23:10:33 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@a62b32' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:10:33 GMT: Compiler call returned
+26 Mar 2017 23:10:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f766bb
+26 Mar 2017 23:10:33 GMT:  Kind = ERROR
+26 Mar 2017 23:10:33 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 2 ColNo = 1 Msg = 'Syntax error, insert "}" to complete ClassBody'
+26 Mar 2017 23:10:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c399d5
+26 Mar 2017 23:10:33 GMT:  Kind = ERROR
+26 Mar 2017 23:10:33 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 15 ColNo = 25 Msg = 'Syntax error, insert "}" to complete MethodBody'
+26 Mar 2017 23:10:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1df3b0e
+26 Mar 2017 23:10:33 GMT:  Kind = ERROR
+26 Mar 2017 23:10:33 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 16 ColNo = 5 Msg = 'Unexpected end of comment'
+26 Mar 2017 23:10:41 GMT: diagnostics = javax.tools.DiagnosticCollector@f76ddb
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@6decfa
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java]
+26 Mar 2017 23:10:41 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@144b12f' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:10:41 GMT: Compiler call returned
+26 Mar 2017 23:10:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@80db43
+26 Mar 2017 23:10:41 GMT:  Kind = ERROR
+26 Mar 2017 23:10:41 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 2 ColNo = 1 Msg = 'Syntax error, insert "}" to complete ClassBody'
+26 Mar 2017 23:10:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13fd122
+26 Mar 2017 23:10:41 GMT:  Kind = ERROR
+26 Mar 2017 23:10:41 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 15 ColNo = 25 Msg = 'Syntax error, insert "}" to complete MethodBody'
+26 Mar 2017 23:10:41 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@44e1d3
+26 Mar 2017 23:10:41 GMT:  Kind = ERROR
+26 Mar 2017 23:10:41 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 16 ColNo = 5 Msg = 'Unexpected end of comment'
+26 Mar 2017 23:10:45 GMT: diagnostics = javax.tools.DiagnosticCollector@ad07cd
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1b2cf3d
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java]
+26 Mar 2017 23:10:45 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@377574' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:10:45 GMT: Compiler call returned
+26 Mar 2017 23:10:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@124619b
+26 Mar 2017 23:10:45 GMT:  Kind = ERROR
+26 Mar 2017 23:10:45 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 13 ColNo = 13 Msg = 'The field Clock24.minutes is not visible'
+26 Mar 2017 23:12:15 GMT: diagnostics = javax.tools.DiagnosticCollector@9d4bac
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@2a3e2e
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java]
+26 Mar 2017 23:12:15 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@cfeab' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:12:15 GMT: Compiler call returned
+26 Mar 2017 23:12:15 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e6a266
+26 Mar 2017 23:12:15 GMT:  Kind = ERROR
+26 Mar 2017 23:12:15 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 21 ColNo = 29 Msg = 'NumberDsplay cannot be resolved to a type'
+26 Mar 2017 23:12:26 GMT: diagnostics = javax.tools.DiagnosticCollector@1738965
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1dc134b
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java]
+26 Mar 2017 23:12:26 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@14bea33' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:12:26 GMT: Compiler call returned
+26 Mar 2017 23:13:11 GMT: diagnostics = javax.tools.DiagnosticCollector@ff5eb4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@71a824
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java, C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java]
+26 Mar 2017 23:13:11 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@6b7185' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:13:11 GMT: Compiler call returned
+26 Mar 2017 23:16:59 GMT: diagnostics = javax.tools.DiagnosticCollector@14e89ad
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@66f3ee
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java]
+26 Mar 2017 23:16:59 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@19ffa7b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:16:59 GMT: Compiler call returned
+26 Mar 2017 23:16:59 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10523d7
+26 Mar 2017 23:16:59 GMT:  Kind = ERROR
+26 Mar 2017 23:16:59 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java LineNo = 21 ColNo = 27 Msg = 'Syntax error, insert ";" to complete Statement'
+26 Mar 2017 23:17:39 GMT: diagnostics = javax.tools.DiagnosticCollector@175e524
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1f85143
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java]
+26 Mar 2017 23:17:39 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@9e6d1' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:17:39 GMT: Compiler call returned
+26 Mar 2017 23:18:02 GMT: diagnostics = javax.tools.DiagnosticCollector@1c8b6ca
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@fac133
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java]
+26 Mar 2017 23:18:02 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@13149ae' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:18:02 GMT: Compiler call returned
+26 Mar 2017 23:18:20 GMT: diagnostics = javax.tools.DiagnosticCollector@b1b169
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@169fe2c
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock24.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test24Clock.java]
+26 Mar 2017 23:18:20 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@156795a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:18:20 GMT: Compiler call returned
+26 Mar 2017 23:44:38 GMT: diagnostics = javax.tools.DiagnosticCollector@168b214
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@67f0a0
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+26 Mar 2017 23:44:38 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@190ea4a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:44:38 GMT: Compiler call returned
+26 Mar 2017 23:44:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15a3f31
+26 Mar 2017 23:44:38 GMT:  Kind = ERROR
+26 Mar 2017 23:44:38 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java LineNo = 26 ColNo = 10 Msg = 'The return type is incompatible with java.lang.Object.toString()'
+26 Mar 2017 23:44:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e41cf4
+26 Mar 2017 23:44:38 GMT:  Kind = ERROR
+26 Mar 2017 23:44:38 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java LineNo = 28 ColNo = 23 Msg = 'Type mismatch: cannot convert from int to java.lang.String'
+26 Mar 2017 23:44:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f67966
+26 Mar 2017 23:44:38 GMT:  Kind = ERROR
+26 Mar 2017 23:44:38 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java LineNo = 29 ColNo = 5 Msg = 'Void methods cannot return a value'
+26 Mar 2017 23:44:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14a3142
+26 Mar 2017 23:44:38 GMT:  Kind = ERROR
+26 Mar 2017 23:44:38 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java LineNo = 40 ColNo = 5 Msg = 'startMielage cannot be resolved to a variable'
+26 Mar 2017 23:44:38 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cb2a2d
+26 Mar 2017 23:44:38 GMT:  Kind = ERROR
+26 Mar 2017 23:44:38 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java LineNo = 59 ColNo = 17 Msg = 'The method getMIleage() is undefined for the type DistanceMeter'
+26 Mar 2017 23:44:57 GMT: diagnostics = javax.tools.DiagnosticCollector@18f17d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@ad098c
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java]
+26 Mar 2017 23:44:57 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1ff3371' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:44:57 GMT: Compiler call returned
+26 Mar 2017 23:44:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e75ae6
+26 Mar 2017 23:44:57 GMT:  Kind = ERROR
+26 Mar 2017 23:44:57 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java LineNo = 26 ColNo = 10 Msg = 'The return type is incompatible with java.lang.Object.toString()'
+26 Mar 2017 23:44:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6cc951
+26 Mar 2017 23:44:57 GMT:  Kind = ERROR
+26 Mar 2017 23:44:57 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java LineNo = 28 ColNo = 23 Msg = 'Type mismatch: cannot convert from int to java.lang.String'
+26 Mar 2017 23:44:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ba3a3b
+26 Mar 2017 23:44:57 GMT:  Kind = ERROR
+26 Mar 2017 23:44:57 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java LineNo = 29 ColNo = 5 Msg = 'Void methods cannot return a value'
+26 Mar 2017 23:44:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@303758
+26 Mar 2017 23:44:57 GMT:  Kind = ERROR
+26 Mar 2017 23:44:57 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java LineNo = 59 ColNo = 17 Msg = 'The method getMIleage() is undefined for the type DistanceMeter'
+26 Mar 2017 23:44:57 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@267092
+26 Mar 2017 23:44:57 GMT:  Kind = ERROR
+26 Mar 2017 23:44:57 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java LineNo = 40 ColNo = 5 Msg = 'The final field DistanceMeter.startMileage cannot be assigned'
+26 Mar 2017 23:45:34 GMT: diagnostics = javax.tools.DiagnosticCollector@e72bc4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1f98c3f
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java]
+26 Mar 2017 23:45:34 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@12889a4' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:45:34 GMT: Compiler call returned
+26 Mar 2017 23:45:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@89f3aa
+26 Mar 2017 23:45:34 GMT:  Kind = ERROR
+26 Mar 2017 23:45:34 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java LineNo = 26 ColNo = 10 Msg = 'The return type is incompatible with java.lang.Object.toString()'
+26 Mar 2017 23:45:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@696159
+26 Mar 2017 23:45:34 GMT:  Kind = ERROR
+26 Mar 2017 23:45:34 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java LineNo = 28 ColNo = 23 Msg = 'Type mismatch: cannot convert from int to java.lang.String'
+26 Mar 2017 23:45:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a2416b
+26 Mar 2017 23:45:34 GMT:  Kind = ERROR
+26 Mar 2017 23:45:34 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java LineNo = 29 ColNo = 5 Msg = 'Void methods cannot return a value'
+26 Mar 2017 23:45:34 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b80cfe
+26 Mar 2017 23:45:34 GMT:  Kind = ERROR
+26 Mar 2017 23:45:34 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java LineNo = 53 ColNo = 17 Msg = 'The method getMIleage() is undefined for the type DistanceMeter'
+26 Mar 2017 23:45:42 GMT: diagnostics = javax.tools.DiagnosticCollector@1334827
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1374534
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java]
+26 Mar 2017 23:45:42 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@ff3b4c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:45:42 GMT: Compiler call returned
+26 Mar 2017 23:45:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13f062f
+26 Mar 2017 23:45:42 GMT:  Kind = ERROR
+26 Mar 2017 23:45:42 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java LineNo = 26 ColNo = 10 Msg = 'The return type is incompatible with java.lang.Object.toString()'
+26 Mar 2017 23:45:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1694e1
+26 Mar 2017 23:45:42 GMT:  Kind = ERROR
+26 Mar 2017 23:45:42 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java LineNo = 28 ColNo = 23 Msg = 'Type mismatch: cannot convert from int to java.lang.String'
+26 Mar 2017 23:45:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17b23bb
+26 Mar 2017 23:45:42 GMT:  Kind = ERROR
+26 Mar 2017 23:45:42 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java LineNo = 29 ColNo = 5 Msg = 'Void methods cannot return a value'
+26 Mar 2017 23:45:42 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1952656
+26 Mar 2017 23:45:42 GMT:  Kind = ERROR
+26 Mar 2017 23:45:42 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java LineNo = 53 ColNo = 5 Msg = 'The method setMileage(int) is undefined for the type DistanceMeter'
+26 Mar 2017 23:46:22 GMT: diagnostics = javax.tools.DiagnosticCollector@6e89e6
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@129b316
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java]
+26 Mar 2017 23:46:22 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@a37657' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:46:22 GMT: Compiler call returned
+26 Mar 2017 23:46:22 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@27ef70
+26 Mar 2017 23:46:22 GMT:  Kind = ERROR
+26 Mar 2017 23:46:22 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java LineNo = 26 ColNo = 10 Msg = 'The return type is incompatible with java.lang.Object.toString()'
+26 Mar 2017 23:46:22 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1300f08
+26 Mar 2017 23:46:22 GMT:  Kind = ERROR
+26 Mar 2017 23:46:22 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java LineNo = 28 ColNo = 23 Msg = 'Type mismatch: cannot convert from int to java.lang.String'
+26 Mar 2017 23:46:22 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@824181
+26 Mar 2017 23:46:22 GMT:  Kind = ERROR
+26 Mar 2017 23:46:22 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java LineNo = 29 ColNo = 5 Msg = 'Void methods cannot return a value'
+26 Mar 2017 23:46:22 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@621627
+26 Mar 2017 23:46:22 GMT:  Kind = ERROR
+26 Mar 2017 23:46:22 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java LineNo = 58 ColNo = 17 Msg = 'The method getMIleage() is undefined for the type DistanceMeter'
+26 Mar 2017 23:46:28 GMT: diagnostics = javax.tools.DiagnosticCollector@59cfad
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@16392c2
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java]
+26 Mar 2017 23:46:28 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@c4f6c6' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:46:28 GMT: Compiler call returned
+26 Mar 2017 23:46:28 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1abd4c1
+26 Mar 2017 23:46:28 GMT:  Kind = ERROR
+26 Mar 2017 23:46:28 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java LineNo = 26 ColNo = 10 Msg = 'The return type is incompatible with java.lang.Object.toString()'
+26 Mar 2017 23:46:28 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9ecdcc
+26 Mar 2017 23:46:28 GMT:  Kind = ERROR
+26 Mar 2017 23:46:28 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java LineNo = 28 ColNo = 23 Msg = 'Type mismatch: cannot convert from int to java.lang.String'
+26 Mar 2017 23:46:28 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6b377
+26 Mar 2017 23:46:28 GMT:  Kind = ERROR
+26 Mar 2017 23:46:28 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java LineNo = 29 ColNo = 5 Msg = 'Void methods cannot return a value'
+26 Mar 2017 23:46:35 GMT: diagnostics = javax.tools.DiagnosticCollector@1aea883
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@d0047f
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java]
+26 Mar 2017 23:46:35 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@11a1384' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:46:35 GMT: Compiler call returned
+26 Mar 2017 23:46:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@efa6a
+26 Mar 2017 23:46:35 GMT:  Kind = ERROR
+26 Mar 2017 23:46:35 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java LineNo = 28 ColNo = 23 Msg = 'Type mismatch: cannot convert from int to java.lang.String'
+26 Mar 2017 23:47:17 GMT: diagnostics = javax.tools.DiagnosticCollector@12c98da
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@ef8860
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java]
+26 Mar 2017 23:47:17 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@f85880' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:47:17 GMT: Compiler call returned
+26 Mar 2017 23:48:09 GMT: diagnostics = javax.tools.DiagnosticCollector@120d7eb
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1c10eca
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+26 Mar 2017 23:48:09 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@142f6d3' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:48:09 GMT: Compiler call returned
+26 Mar 2017 23:49:43 GMT: diagnostics = javax.tools.DiagnosticCollector@36b8d7
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1ad634
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+26 Mar 2017 23:49:43 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@136891b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:49:43 GMT: Compiler call returned
+26 Mar 2017 23:51:46 GMT: diagnostics = javax.tools.DiagnosticCollector@6fddc1
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1c58b51
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+26 Mar 2017 23:51:46 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@125b493' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:51:46 GMT: Compiler call returned
+26 Mar 2017 23:56:29 GMT: diagnostics = javax.tools.DiagnosticCollector@d9830a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1436e39
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+26 Mar 2017 23:56:29 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@4ef299' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:56:29 GMT: Compiler call returned
+26 Mar 2017 23:56:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@518b76
+26 Mar 2017 23:56:29 GMT:  Kind = ERROR
+26 Mar 2017 23:56:29 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java LineNo = 24 ColNo = 29 Msg = 'The method getFuel() is undefined for the type FuelGauge'
+26 Mar 2017 23:56:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9aa414
+26 Mar 2017 23:56:29 GMT:  Kind = ERROR
+26 Mar 2017 23:56:29 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java LineNo = 27 ColNo = 17 Msg = 'getFuel cannot be resolved or is not a field'
+26 Mar 2017 23:56:40 GMT: diagnostics = javax.tools.DiagnosticCollector@f97836
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@19bc12c
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+26 Mar 2017 23:56:40 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1d711d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:56:40 GMT: Compiler call returned
+26 Mar 2017 23:56:40 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9a2249
+26 Mar 2017 23:56:40 GMT:  Kind = ERROR
+26 Mar 2017 23:56:40 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java LineNo = 27 ColNo = 17 Msg = 'getFuel cannot be resolved or is not a field'
+26 Mar 2017 23:56:46 GMT: diagnostics = javax.tools.DiagnosticCollector@1307fd7
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@15eaa87
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+26 Mar 2017 23:56:46 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@a2a571' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:56:46 GMT: Compiler call returned
+26 Mar 2017 23:57:19 GMT: diagnostics = javax.tools.DiagnosticCollector@1e1bed0
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@351700
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+26 Mar 2017 23:57:19 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@c94c1' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:57:19 GMT: Compiler call returned
+26 Mar 2017 23:58:14 GMT: diagnostics = javax.tools.DiagnosticCollector@368813
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@36029e
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+26 Mar 2017 23:58:14 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@48aeb1' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:58:14 GMT: Compiler call returned
+26 Mar 2017 23:58:14 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@21525f
+26 Mar 2017 23:58:14 GMT:  Kind = ERROR
+26 Mar 2017 23:58:14 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java LineNo = 19 ColNo = 7 Msg = 'reservoir cannot be resolved'
+26 Mar 2017 23:58:14 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19fa6e5
+26 Mar 2017 23:58:14 GMT:  Kind = ERROR
+26 Mar 2017 23:58:14 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java LineNo = 21 ColNo = 24 Msg = 'reservoir cannot be resolved'
+26 Mar 2017 23:58:14 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@117c59b
+26 Mar 2017 23:58:14 GMT:  Kind = ERROR
+26 Mar 2017 23:58:14 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java LineNo = 24 ColNo = 19 Msg = 'reservoir cannot be resolved'
+26 Mar 2017 23:58:14 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9c8ff4
+26 Mar 2017 23:58:14 GMT:  Kind = ERROR
+26 Mar 2017 23:58:14 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java LineNo = 25 ColNo = 24 Msg = 'reservoir cannot be resolved'
+26 Mar 2017 23:58:40 GMT: diagnostics = javax.tools.DiagnosticCollector@77c585
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@6680e2
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+26 Mar 2017 23:58:40 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@bef384' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:58:40 GMT: Compiler call returned
+26 Mar 2017 23:59:17 GMT: diagnostics = javax.tools.DiagnosticCollector@86d06a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@b7292d
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+26 Mar 2017 23:59:17 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1381b52' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:59:17 GMT: Compiler call returned
+26 Mar 2017 23:59:38 GMT: diagnostics = javax.tools.DiagnosticCollector@41f0f
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@cf66e3
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+26 Mar 2017 23:59:38 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@fe0c40' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+26 Mar 2017 23:59:38 GMT: Compiler call returned
+27 Mar 2017 0:01:08 GMT: diagnostics = javax.tools.DiagnosticCollector@16b7344
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@10858f9
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+27 Mar 2017 0:01:08 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1780537' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:01:08 GMT: Compiler call returned
+27 Mar 2017 0:01:46 GMT: diagnostics = javax.tools.DiagnosticCollector@19bf9e8
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@145d04a
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+27 Mar 2017 0:01:46 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@a0ba89' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:01:46 GMT: Compiler call returned
+27 Mar 2017 0:02:59 GMT: diagnostics = javax.tools.DiagnosticCollector@165b4e3
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@172e367
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+27 Mar 2017 0:02:59 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@4c2680' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:02:59 GMT: Compiler call returned
+27 Mar 2017 0:03:36 GMT: diagnostics = javax.tools.DiagnosticCollector@890ce2
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1fcb68d
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+27 Mar 2017 0:03:36 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@150dbc9' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:03:36 GMT: Compiler call returned
+27 Mar 2017 0:04:58 GMT: diagnostics = javax.tools.DiagnosticCollector@1fd8f94
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@bc177d
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+27 Mar 2017 0:04:58 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@c4d71' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:04:58 GMT: Compiler call returned
+27 Mar 2017 0:05:37 GMT: diagnostics = javax.tools.DiagnosticCollector@571a11
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@3daaa8
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+27 Mar 2017 0:05:37 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1e34da7' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:05:37 GMT: Compiler call returned
+27 Mar 2017 0:05:55 GMT: diagnostics = javax.tools.DiagnosticCollector@b43423
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@697a93
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+27 Mar 2017 0:05:55 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1edb931' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:05:55 GMT: Compiler call returned
+27 Mar 2017 0:06:16 GMT: diagnostics = javax.tools.DiagnosticCollector@1d90937
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1235438
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+27 Mar 2017 0:06:16 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1972c5a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:06:16 GMT: Compiler call returned
+27 Mar 2017 0:06:45 GMT: diagnostics = javax.tools.DiagnosticCollector@1619b8c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1961731
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+27 Mar 2017 0:06:45 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@189540c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:06:45 GMT: Compiler call returned
+27 Mar 2017 0:07:05 GMT: diagnostics = javax.tools.DiagnosticCollector@1c93adb
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1d072bc
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\FuelGauge.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\DistanceMeter.java, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge\TestMileageFuel.java]
+27 Mar 2017 0:07:05 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1064093' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Odometer and Fuel Gauge;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:07:05 GMT: Compiler call returned
+27 Mar 2017 0:11:01 GMT: Log 'EclipseCompiler.txt' opened: 27 Mar 2017 0:11:01 GMT with name C:\Users\s4et0\Desktop\Lab 21\Clock\EclipseCompiler.txt
+27 Mar 2017 0:13:24 GMT: diagnostics = javax.tools.DiagnosticCollector@1c7e5f2
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@3d95a8
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test12Clock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock12.java]
+27 Mar 2017 0:13:24 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@9501ea' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:13:25 GMT: Compiler call returned
+27 Mar 2017 0:13:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@180b19b
+27 Mar 2017 0:13:25 GMT:  Kind = ERROR
+27 Mar 2017 0:13:25 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test12Clock.java LineNo = 5 ColNo = 23 Msg = 'Type mismatch: cannot convert from Clock24 to Clock12'
+27 Mar 2017 0:13:25 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@100ae2f
+27 Mar 2017 0:13:25 GMT:  Kind = ERROR
+27 Mar 2017 0:13:25 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test12Clock.java LineNo = 21 ColNo = 15 Msg = 'Type mismatch: cannot convert from Clock24 to Clock12'
+27 Mar 2017 0:13:30 GMT: diagnostics = javax.tools.DiagnosticCollector@113f9eb
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1615bcd
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock12.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test12Clock.java]
+27 Mar 2017 0:13:30 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@11ebabe' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:13:30 GMT: Compiler call returned
+27 Mar 2017 0:13:30 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@8ab43
+27 Mar 2017 0:13:30 GMT:  Kind = ERROR
+27 Mar 2017 0:13:30 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test12Clock.java LineNo = 21 ColNo = 15 Msg = 'Type mismatch: cannot convert from Clock24 to Clock12'
+27 Mar 2017 0:13:35 GMT: diagnostics = javax.tools.DiagnosticCollector@1379d7c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1d32152
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock12.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test12Clock.java]
+27 Mar 2017 0:13:35 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@109ac1a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:13:35 GMT: Compiler call returned
+27 Mar 2017 0:25:00 GMT: diagnostics = javax.tools.DiagnosticCollector@5c904d
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@ea95ec
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\Test12Clock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay12.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock12.java]
+27 Mar 2017 0:25:00 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@307891' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:25:00 GMT: Compiler call returned
+27 Mar 2017 0:25:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3dbb49
+27 Mar 2017 0:25:00 GMT:  Kind = ERROR
+27 Mar 2017 0:25:00 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay12.java LineNo = 1 ColNo = 14 Msg = 'The public type NumberDisplay must be defined in its own file'
+27 Mar 2017 0:25:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1b9d357
+27 Mar 2017 0:25:00 GMT:  Kind = ERROR
+27 Mar 2017 0:25:00 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test12Clock.java LineNo = 21 ColNo = 15 Msg = 'The constructor Clock12(int, int) is undefined'
+27 Mar 2017 0:25:17 GMT: diagnostics = javax.tools.DiagnosticCollector@ba28be
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@10b5b70
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\Test12Clock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock12.java, C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java]
+27 Mar 2017 0:25:17 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1abd7a4' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:25:17 GMT: Compiler call returned
+27 Mar 2017 0:25:17 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ff3146
+27 Mar 2017 0:25:17 GMT:  Kind = ERROR
+27 Mar 2017 0:25:17 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Test12Clock.java LineNo = 21 ColNo = 15 Msg = 'The constructor Clock12(int, int) is undefined'
+27 Mar 2017 0:25:39 GMT: diagnostics = javax.tools.DiagnosticCollector@2f9026
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@c8a83e
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\Clock12.java, C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test12Clock.java]
+27 Mar 2017 0:25:39 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@296b05' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:25:39 GMT: Compiler call returned
+27 Mar 2017 0:26:15 GMT: diagnostics = javax.tools.DiagnosticCollector@1010a79
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1e722d5
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test12Clock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock12.java]
+27 Mar 2017 0:26:15 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@19df6ca' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:26:15 GMT: Compiler call returned
+27 Mar 2017 0:26:38 GMT: diagnostics = javax.tools.DiagnosticCollector@16f6d06
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@15d67d4
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock12.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test12Clock.java]
+27 Mar 2017 0:26:38 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@c018c9' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:26:38 GMT: Compiler call returned
+27 Mar 2017 0:28:01 GMT: diagnostics = javax.tools.DiagnosticCollector@198fe4a
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@9b48dc
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock12.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test12Clock.java]
+27 Mar 2017 0:28:01 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@17b3844' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:28:01 GMT: Compiler call returned
+27 Mar 2017 0:29:01 GMT: diagnostics = javax.tools.DiagnosticCollector@1772936
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1e3a20f
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock12.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test12Clock.java]
+27 Mar 2017 0:29:01 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@183ea61' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:29:01 GMT: Compiler call returned
+27 Mar 2017 0:31:26 GMT: diagnostics = javax.tools.DiagnosticCollector@1f9a3ee
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@18d6c3
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock12.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test12Clock.java]
+27 Mar 2017 0:31:26 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1980c8d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:31:26 GMT: Compiler call returned
+27 Mar 2017 0:31:56 GMT: diagnostics = javax.tools.DiagnosticCollector@d85c08
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@11badb3
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Test12Clock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock12.java]
+27 Mar 2017 0:31:56 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1d37f7b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:31:56 GMT: Compiler call returned
+27 Mar 2017 0:38:29 GMT: diagnostics = javax.tools.DiagnosticCollector@155487e
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@6d8b7
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\TestClock.java]
+27 Mar 2017 0:38:29 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@b944c8' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:38:29 GMT: Compiler call returned
+27 Mar 2017 0:38:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17e08fe
+27 Mar 2017 0:38:29 GMT:  Kind = ERROR
+27 Mar 2017 0:38:29 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Clock.java LineNo = 16 ColNo = 10 Msg = 'Return type for the method is missing'
+27 Mar 2017 0:38:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14123c4
+27 Mar 2017 0:38:29 GMT:  Kind = ERROR
+27 Mar 2017 0:38:29 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Clock.java LineNo = 16 ColNo = 10 Msg = 'Return type for the method is missing'
+27 Mar 2017 0:38:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@701d3
+27 Mar 2017 0:38:29 GMT:  Kind = ERROR
+27 Mar 2017 0:38:29 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Clock.java LineNo = 16 ColNo = 10 Msg = 'Return type for the method is missing'
+27 Mar 2017 0:38:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1df6aeb
+27 Mar 2017 0:38:29 GMT:  Kind = ERROR
+27 Mar 2017 0:38:29 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Clock.java LineNo = 8 ColNo = 10 Msg = 'Return type for the method is missing'
+27 Mar 2017 0:38:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@23b456
+27 Mar 2017 0:38:29 GMT:  Kind = ERROR
+27 Mar 2017 0:38:29 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Clock.java LineNo = 16 ColNo = 10 Msg = 'Return type for the method is missing'
+27 Mar 2017 0:38:29 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c4ef95
+27 Mar 2017 0:38:29 GMT:  Kind = ERROR
+27 Mar 2017 0:38:29 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\TestClock.java LineNo = 21 ColNo = 15 Msg = 'The constructor Clock(int, int, java.lang.String) is undefined'
+27 Mar 2017 0:38:50 GMT: diagnostics = javax.tools.DiagnosticCollector@4b5b3
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@f20441
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\TestClock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock.java]
+27 Mar 2017 0:38:50 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@17fc11a' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:38:50 GMT: Compiler call returned
+27 Mar 2017 0:39:41 GMT: diagnostics = javax.tools.DiagnosticCollector@119c378
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@4c1a38
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\TestClock.java]
+27 Mar 2017 0:39:41 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@b41caf' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:39:41 GMT: Compiler call returned
+27 Mar 2017 0:41:02 GMT: diagnostics = javax.tools.DiagnosticCollector@73feb
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1a130b9
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\TestClock.java]
+27 Mar 2017 0:41:02 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@275447' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:41:02 GMT: Compiler call returned
+27 Mar 2017 0:41:08 GMT: diagnostics = javax.tools.DiagnosticCollector@e2ea64
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1ea1b45
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\TestClock.java]
+27 Mar 2017 0:41:08 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@309c0d' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:41:08 GMT: Compiler call returned
+27 Mar 2017 0:41:58 GMT: diagnostics = javax.tools.DiagnosticCollector@ec5e2
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1c2cef8
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\TestClock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock.java]
+27 Mar 2017 0:41:58 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@733e60' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:41:58 GMT: Compiler call returned
+27 Mar 2017 0:41:58 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@f126f9
+27 Mar 2017 0:41:58 GMT:  Kind = ERROR
+27 Mar 2017 0:41:58 GMT: Name = C:\Users\s4et0\Desktop\Lab 21\Clock\Clock.java LineNo = 44 ColNo = 8 Msg = 'hoursValue cannot be resolved to a variable'
+27 Mar 2017 0:42:06 GMT: diagnostics = javax.tools.DiagnosticCollector@1fe0f14
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@11eb452
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\TestClock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock.java]
+27 Mar 2017 0:42:06 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@2436d3' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:42:06 GMT: Compiler call returned
+27 Mar 2017 0:43:32 GMT: diagnostics = javax.tools.DiagnosticCollector@fb61e5
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@7c1bc7
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\TestClock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock.java]
+27 Mar 2017 0:43:32 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@18a022b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:43:32 GMT: Compiler call returned
+27 Mar 2017 0:43:36 GMT: diagnostics = javax.tools.DiagnosticCollector@a4ad79
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@13320e7
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\TestClock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock.java]
+27 Mar 2017 0:43:36 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1f008e9' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:43:36 GMT: Compiler call returned
+27 Mar 2017 0:46:22 GMT: diagnostics = javax.tools.DiagnosticCollector@f0b2d2
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1dce465
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\TestClock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock.java]
+27 Mar 2017 0:46:22 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@14766e5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:46:22 GMT: Compiler call returned
+27 Mar 2017 0:49:08 GMT: diagnostics = javax.tools.DiagnosticCollector@264978
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@b52023
+fileObjects = [C:\Users\s4et0\Desktop\Lab 21\Clock\NumberDisplay.java, C:\Users\s4et0\Desktop\Lab 21\Clock\TestClock.java, C:\Users\s4et0\Desktop\Lab 21\Clock\Clock.java]
+27 Mar 2017 0:49:08 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@190d204' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, C:\Users\s4et0\Desktop\Lab 21\Clock;C:\Users\s4et0\Downloads\drjava-beta-20160913-225446.exe]
+27 Mar 2017 0:49:08 GMT: Compiler call returned
