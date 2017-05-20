@@ -1,0 +1,35 @@
+import java.util.Arrays;
+
+public class SumWithoutSmallest 
+{
+  public static double[] generateArrayElements(int arrayLength, double[] myArray) 
+  {
+    for(int i =0; i < arrayLength; i++) 
+    {
+      myArray[i] = Math.random()*100 + 1; 
+    }
+    return myArray;
+  }
+  
+  public static double sumWithoutSmallest(double[] myArray) 
+  {
+    double min = myArray[0], sum = myArray[0];
+    for(int i =0; i < myArray.length - 1; i++) 
+    {
+      sum+= myArray[i];
+      if(myArray[i] < min )
+      {
+        min = myArray[i];
+      }
+    }
+    return sum - min;
+  }
+  
+  public static void main (String[] args) 
+  {
+    double elements[] = new double[10];
+    generateArrayElements(10, elements);
+    System.out.printf("Array: " + Arrays.toString(elements));
+    System.out.println("\nThe sum of the all the elements without the minimum is:" + sumWithoutSmallest(elements));
+  }
+}

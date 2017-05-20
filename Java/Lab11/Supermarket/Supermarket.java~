@@ -1,0 +1,26 @@
+import java.util.*;
+
+public class Supermarket 
+{
+  public static String nameOfBestCustomer(ArrayList<Double> sales, ArrayList<String> customers) 
+  {
+    
+  }
+  
+  public static void main(String[] args) 
+  {
+    Scanner in = new Scanner(System.in);
+    ArrayList<Double> sales = new ArrayList<Double>();
+    ArrayList<String> names = new ArrayList<String>();
+    do 
+    {
+      System.out.print("Customer`s purchase amount: ");
+      sales.add(in.nexDouble());
+      System.out.print("\nCustomer`s name: ");
+      names.add(in.next());
+    }
+    while(in.nextDouble != 0);
+    System.out.println("Sales: " + sales.toString());
+    System.out.println("Names: " + names.toString());
+  }
+}

@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class ShoppingList 
+{
+  public static ArrayList<String> addItem(String item, ArrayList<String> myArrayList) 
+  {
+    return myArrayList.add(item);
+  }
+  
+  public static void main(String[] args) 
+  {
+    Scanner in = new Scanner(System.in);
+    System.out.print("Enter the item you wish to add to your shopping list: ");
+    String item = in.next();
+    ArrayList<String> shoppingList = new ArrayList<>();
+    System.out.println("\nYour list now includes: " + shoppingList.toString());
+  }
+}

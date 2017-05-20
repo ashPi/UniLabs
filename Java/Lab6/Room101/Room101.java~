@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Room101 
+{
+  public static double area(double length, double breadth) 
+  public static double wallArea(double length, double breadth, double height) 
+  public static double volume(double length, double breadth, double height)
+  public static double carpetCost(double length, double breadth, double costPerSqM) 
+  public static double wallPaintCost(double length, double breadth, double height, double costPerSqM)
+  public static int numCarpetTiles(double length, double breadth)
+  public static void main(String[] args) 
+  {
+    
+  }
+}

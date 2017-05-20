@@ -1,0 +1,52 @@
+import java.util.Arrays;
+
+public class AreEqual 
+{
+  public static int[] generateArrayElements(int arrayLength, int[] myArray) 
+  {
+    for(int i = 0;i < arrayLength;i++) 
+    {
+      myArray[i] = (int) (Math.random() * 100) + 1;
+    }
+    return myArray;
+  }
+  
+  public static boolean equals(int[] a, int[] b) 
+  {
+    boolean flag = true;
+    if(a.length != b.length) 
+    {
+      flag = false;
+    }
+    else 
+    {
+      for(int i = 0; i < a.length; i++) 
+      {
+        if(a[i] != b[i]) 
+        {
+          flag = false;
+          break;
+        }
+      }
+    }
+    return flag;
+  }
+  
+  public static void main(String[] args) 
+  {
+    int fisrtArray[] = new int[10];
+    int secondArray[] = new int[10];
+    generateArrayElements(10, firstArray);
+    generateArrayElements(10, secondArray);
+    System.out.println("First Array: " + Arrays.toString(firstArray));
+    System.out.println("Second Array: " + Arrays.toString(secondArray));
+    if(equals) 
+    {
+      System.out.println("Both arrays are the same");
+    }
+    else 
+    {
+      System.out.println("The given arrays are different");
+    }
+  }
+}

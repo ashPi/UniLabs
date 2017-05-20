@@ -1,0 +1,35 @@
+import java.util.Arrays;
+
+public static RemoveMin 
+{
+  public static int[] generateArrayElements(int arrayLength, int[] myArray) 
+  {
+    for(int i =0; i < arrayLength; i++) 
+    {
+      myArray[i] = (int) (Math.random() * 100) + 1;
+    }
+    return myArray;
+  }
+  
+  public static void removeMin (int[] myArray) 
+  {
+    int min = myArray[0], index = 0;
+    for(int i =0; i < myArray.length; i++) 
+    {
+      if(myArray[i] < min) 
+      {
+        min = myArray[i];
+        index = i;
+      }
+    }
+    myArray[index] = myArray[myArray.length - 1];
+    return myArray;
+  }
+  
+  public static void main(String[] args) 
+  {
+    int elements[] = new int[10];
+    System.out.println("Array: " + Array.toString(elements));
+    System.out.println("Array without the minimum: " + removeMin(elements));
+  }
+}

@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class GolfScores 
+{
+  public static void main(String[] args) 
+  {
+    Scanner in = new Scanner (System.in);
+    ArrayList<Integer> golfScores = new ArrayList<>();
+    do 
+    {
+      System.out.println("Enter score(-1 for exit):");
+      golfScores.add(in.nextInt());
+    }
+    while(golfScores.get(golfScores.size()) - 1 == -1);
+    System.out.println("The scores are: " + golfScores);
+  }
+}
