@@ -1,0 +1,28 @@
+import java.util.*;
+
+public class AppendArrayLists 
+{
+  public static ArrayList<Integer> append(ArrayList<Integer> a, ArrayList<Integer> b) 
+  {
+    for(int i = 0; i < b.size(); i++) 
+    {
+      a.add(b.get(i));
+    }
+    return a;
+  }
+  
+  public static void main(String[] args) 
+  {
+    Scanner in = new Scanner(System.in);
+    ArrayList<Integer> firstArrayList = new ArrayList<>();
+    ArrayList<Integer> secondArrayList = new ArrayList<>();
+    do 
+    {
+      System.out.println("Enter numbers fo the first list(q for exit): ");
+      firstArrayList.add(in.nextInt());
+    }
+    while(in.hasNextInt());
+    firstArrayList.remove(firstArrayList.size() - 1);
+    
+  }
+}
