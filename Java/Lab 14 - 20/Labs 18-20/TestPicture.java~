@@ -1,0 +1,23 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class TestPicture {
+   
+   
+   public static void main(String[] args) { 
+     /*Picture p = new Picture ("H:\\Sis\\Software Design and Development\\Java\\lab 20\\mediasources\\640x480.jpg ");
+     //Picture p = new Picture(FileChooser.getMediaPath("640x480.jpg"));
+     p.beachSmall() ;
+     p.explore();*/
+     
+     Picture source = new Picture ("H:\\Sis\\Software Design and Development\\Java\\lab 20\\mediasources\\redSnake.jpg ");
+     //H:\Sis\Software Design and Development\Java\Lab 20\mediasources
+     //source.explore();
+     
+     //source.scaleUp(4).explore();
+     
+     source.scaleDown(4).explore();
+     //source.explore();
+   }
+   
+}

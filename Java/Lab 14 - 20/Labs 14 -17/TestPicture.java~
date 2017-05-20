@@ -1,0 +1,73 @@
+import java.util.Scanner;
+/**
+ * Auto Generated Java Class.
+ */
+public class TestPicture {
+   
+   
+   public static void main(String[] args) { 
+     //Do something
+    
+     //FileChooser.setMediaPath(FileChooser("C:\\Users\\s4et0\\Desktop") );
+     //Picture pict = new Picture(FileChooser.pickAFile()); 
+    
+     //Picture pict = new Picture(FileChooser.pickAFile());
+     //pict.explore();
+     //pict.clearBlue();
+     //pict.increaseRed();
+     //pict.decreaseRed();
+     //pict.makeSunset();
+     //pict.negate();
+     //pict.greyscale();
+     //pict.greyscaleWithLuminance();
+     //pict.mirrorVertical();
+     //pict.randomOffset();
+     //pict.mirrorTemple();
+     //pict.mirrorHorizontal();
+     //pict.mirrorDiagonal();
+     //pict.explore();
+     
+     //-----------------------------------------------------------------------------------------
+     Scanner in = new Scanner(System.in);
+     System.out.println("Please choose the blank picture");
+     Picture targetPicture = new Picture(FileChooser.pickAFile());
+     //Picture source = new Picture(FileChooser.pickAFile());
+     targetPicture.explore();
+     //source.explore();
+     //targetPicture.copyCaterpillar();
+     
+     
+    // targetPicture.copyToPosition(source, 20, 20);
+     
+     //targetPicture.copyPicture();
+     //targetPicture.cropPicture(24, 0, 100,63);
+     //targetPicture.explore();
+     
+     //snake
+     /*int startX = in.nextInt();
+     int startY = in.nextInt();
+     int endX = in.nextInt();
+     int endY = in.nextInt();
+     targetPicture.cropToPosition(startX, startY, endX, endY, startX, startY);*/
+     
+     /*//collage
+     targetPicture.copyToPosition(0,0);
+     targetPicture.copyToPosition(100,0);
+     targetPicture.copyToPosition(200,0);
+     targetPicture.copyToPosition(300,0);
+     
+     //sergio
+     targetPicture.theSergioMethod();*/
+     
+     //collage
+     targetPicture.collage();
+     
+     targetPicture.explore();
+     in.close();
+   }
+   
+   //158 3 340 182
+}
+
+
+
