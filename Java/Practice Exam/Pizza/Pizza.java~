@@ -1,0 +1,78 @@
+/**
+ * This is a class which stores information
+ * about the type of pizza a company stocks.
+ * @author Silviya Tacheva
+ * @version 1.0 15.03.2017 
+ */
+
+public class Pizza 
+{
+  //=====================FIELDS==============================================================
+  private String name; // The name of the pizza
+  private double price; // The price of the pizza
+  private String size; // The size of a pizza: small- 7inch, medium- 12inch or large- 15inch
+  private String spiciness; // Whether it`s mild, moderate or hot
+  private boolean vegetarian; // Whether it`s suitable for vegetarians or not
+  
+  //-------------------Constructors----------------------------------------------------------
+  /**
+   * A constructor for initialising the attributes
+   * of the Pizza object with custom values
+   * @param aName The value to assign to the name field
+   * @param aPrice The value to assign to the price field
+   * @param aSize The value to assign to the price field
+   * @param aSpiciness The value to assign to the spiciness field
+   * @param a=isVegetarian The value to assign to the vegetarian field
+   */
+  public Pizza(String aName, double aPrice, String aSize, String aSpiciness, boolean isVegetarian) 
+  {
+    name = aName;
+    price = aPrice;
+    size = aSize;
+    spiciness = aSpiciness;
+    vegetarian = isVegetarian;
+  }
+  
+  
+  /**
+   * A constructor for initialising the attributes
+   * of the Pizza object with default values
+   */
+  public Pizza() 
+  {
+    name = "Margherita";
+    price = 4.99;
+    size = "small";
+    spiciness = "mild";
+    vegetarian = true;
+  }
+  
+   //-------------------Setter Methods-------------------------------------------------------
+  
+  /**
+   * Sets the name of the pizza
+   * @param aName The name of the pizza
+   */
+  public void setName(String name) 
+  {
+    this.name = name;
+  }
+  
+  /**
+   * Sets the price of the pizza
+   * @param aName The price of the pizza
+   */
+  public void setPrice(String price) 
+  {
+    this.price = price;
+  }
+  
+  /**
+   * Sets the price of the pizza
+   * @param aName The price of the pizza
+   */
+  public void setPrice(String price) 
+  {
+    this.price = price;
+  }
+}
