@@ -1,0 +1,43 @@
+// Examples from lecture 7
+
+public class ExampleMethods {
+
+    // Example 1: No return statement
+    public static void sum(int start, int end) {
+        int total = 0;
+        for (int i = start; i <= end; i++) {
+            total += i;
+        }
+        System.out.println("Sum from " + start + " to " + end + " is " + total);
+    }
+
+    // Example 2: returning a value
+    public static double rectArea(double length, double breadth) {
+        // We could use a local varaible
+        //double area = length * breadth;
+        return length * breadth;
+    }
+
+    // Example 3: Multiple return statements 
+    public static int min(int a, int b) {
+        if (a < b) {
+            return a;
+        }
+        return b;
+    }
+   
+    public static void main(String[] args) {
+        sum(1,50);
+        sum(1,50);
+        sum(50,100);
+        System.out.printf("Rectangle area is %.2f\n", rectArea(1.2,4.5));
+        double squareArea = rectArea(5.6, 5.6);
+        System.out.printf("Square area is %.2f m^2\n", squareArea);
+        int x = 9;
+        int y = -10;
+        System.out.println("Min of " + x + " and " + y + " is " + min(x,y));
+        
+        
+        
+    }
+}

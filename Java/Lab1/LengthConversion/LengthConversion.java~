@@ -1,0 +1,16 @@
+publlic class LengthConversion 
+{
+  public static void main (String[] args) 
+  {
+    final CM_IN_M = 100;
+    final INCHES_IN_FOOT = 12;
+    final CM_in_INCH = 0.39;
+    double metres = 3.4;
+    int inches = 0;
+    int feet = 0;
+    double cm = metres * CM_IN_M;
+    inches = cm * CM_IN_INCH;
+    feet = (int)(inches / INCHES_IN_FOOT);
+    inches = (int)(inches % INCHES_IN_FOOT); 
+  }
+}

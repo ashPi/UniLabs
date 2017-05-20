@@ -1,0 +1,31 @@
+public class TemperatureRepresentation 
+{
+  public static int colorForValue(double temperature) 
+  {
+    
+  }
+  
+  public static int interpolateRed(double temperature) 
+  {
+    
+  }
+    
+  public static int interpolateGreen(double temperature) 
+  {
+    
+  }
+    
+  public static int interpolateBlue(double temperature) 
+  {
+    
+  }
+  
+  public static void main (String[] args) 
+  {
+    Scanner in = new Scanner(System.in);
+    System.out.print("Enter temperature: ");
+    double tempereature = in.nextDouble();
+    System.out.println("\nThe color for the given temperature is " + colorForValue(temperature));
+    in.close();
+  }
+}

@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class NumberOfDigits 
+{
+  public static void main (String[] args) 
+  {
+    Scanner in = new Scanner(System.in);
+    //10 000 000 000;
+    System.out.print("Enter an integer smaller than 10 000 000 000: ");
+    int number = in.nextInt();
+    System.out.println("");
+    int temp = Math.abs(number);
+    int digits = 1;
+    System.out.println((int)5/10);
+    
+  }
+}

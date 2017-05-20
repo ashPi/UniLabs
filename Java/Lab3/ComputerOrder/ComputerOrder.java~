@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class ComputerOrder 
+{
+  public static void main (String[] args) 
+  {
+    Scanner in = new Scanner(System.in);
+    System.out.print("Number of computers: ");
+    int computers = in.nextInt();
+    System.out.println("");
+    System.out.println("Express delivery (1/0): ");
+    bool delivery = in.nextInt();
+    System.out.println(delivery);
+    in.close();
+  }
+}

@@ -1,0 +1,12 @@
+public class Myclass{
+	public static void main(string() args){
+		int x = 7;
+		double a = 15.6
+		var d = 1.4;
+		system.out.printIn("My sequence is ...");
+		for (i = 0; i < x, i++{
+			double temp = a + i * d;
+			System.out.println("Number " + i " is " + temp);
+		
+	}
+}

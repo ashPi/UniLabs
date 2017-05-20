@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class CalculatingChange 
+{
+  public static void main (String[] args) 
+  {
+    Scanner in = new Scanner(System.in);
+    System.out.print("Amount of change expected: ");
+    double change = in.nextDouble();
+    final int P_IN_A_POUND = 100;
+    int temp = change * P_IN_A_POUND;
+    
+  }
+}

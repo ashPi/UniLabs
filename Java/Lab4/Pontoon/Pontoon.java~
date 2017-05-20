@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Pontoon 
+{
+  public static void main (String[] args) 
+  {
+    Scanner in = new Scanner(System.in);
+    int firstCardPlayer, secondCardPlayer, firstCardComputer, secondCardComputer, totalPlayer = 0, totalComputer = 0;
+    do
+    {
+      firstCardPlayer = (int)(Math.random()*10) + 1;
+      firstCardPlayer = (int)(Math.random()*10) + 1;
+    }
+  }
+}

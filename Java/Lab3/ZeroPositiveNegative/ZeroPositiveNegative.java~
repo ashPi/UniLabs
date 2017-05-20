@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class ZeroPositiveNegative 
+{
+  public static void main (String[] args) 
+  {
+    Scanner in = new Scanner(System.in);
+    System.out.print("Enter a number: ");
+    if(in.hasNextDouble) 
+    {
+      double userNumber = in.nextD0uble();
+    }
+    System.out.println("");
+    System.out.print("The numbe is ");
+    if(userNumber == 0) 
+    {
+      System.out.println("zero.");
+    }
+    else 
+    {
+      System.out.print((userNumber > 0 ? "positive " : "negative "));
+      if(Math.abs(userNumber) < 1) 
+      {
+        System.out.print("and small");
+      }
+      if(Math.abs(userNumber) > 1000000) 
+      {
+        System.out.print("and large");
+      }
+    }
+    System.out.println("");
+  }
+}

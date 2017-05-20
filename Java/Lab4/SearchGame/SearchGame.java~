@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+public class SearchGame 
+{
+  public static void main (String[] args) 
+  {
+    Scanner in = new Scanner(System.in);
+    int prizeX = (int)(Math.random()* 10) + 1;
+    int prizeY = (int)(Math.random()* 10) + 1;
+    int playerX = 0;
+    int playerY = 0;
+    String move = "";
+    do 
+      System.out.println(x + " " + y);
+    {
+      System.out.printl("Your position is (" + playerX + ";" + playerY + ")");
+      if(Math.abs(playerX) - Math.abs(prizeX) == 3 || Math.abs(playerY) - Math.abs(prizeY) == 3) 
+      {
+        System.out.println("\nYou are warm");
+      }
+      else if(Math.abs(playerX) - Math.abs(prizeX) == 2 || Math.abs(playerY) - Math.abs(prizeY) == 2) 
+      {
+        System.out.println("\nYou are hot");
+      }
+      else if(Math.abs(playerX) - Math.abs(prizeX) == 1 || Math.abs(playerY) - Math.abs(prizeY) == 1) 
+      {
+        System.out.println("\nYou are boiling");
+      }
+      else 
+      {
+        System.out.println("");
+      }
+      System.out.print("Enter your next move(a[left]/d[right]/s[down]/w[up]): ");
+      move = in.next();
+      switch case(move) 
+      {
+        case "a": playerX--; break;
+        case "s": playerY--; break;
+        case "d": playerX++; break;
+        case "w": playerY++; break;
+      }
+      System.out.println("");
+    }
+    while(Math.abs(playerX) != Math.abs(prizeX) || Math.abs(playerY) != Math.abs(prizeY));
+    System.out.println("Congratulations, you found the prize!");
+    in.close();
+  }
+}

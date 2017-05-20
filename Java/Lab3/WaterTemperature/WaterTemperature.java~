@@ -1,0 +1,38 @@
+9import java.util.Scanner;
+
+public class WaterTemperature 
+{
+  public static void main (String[] args) 
+  {
+    Scanner in = new Scanner(System.in);
+    System.out.print("Enter temperature: ");
+    double degrees = in.nextDouble();
+    System.out.prinln("");
+    System.out.print("Is is in Celsius or in Fahrenheit (C/F): ");
+    char system = in.next();
+    System.out.println("");
+    System.out.print("At temperature of " + degrees + system + " water is ");
+    double temperatureC;
+    if(system == 'F') 
+    {
+      temperatureC = (degrees * 9) / 5 + 32;
+    }
+    else 
+    {
+      temperatureC = degrees;
+    }
+    if(temperatureC <= 0) 
+    {
+      System.out.prinln("ice");
+    }
+    else if(temperatureC < 100) 
+    {
+      System.out.println("liquid");
+    }
+    else 
+    {
+      System.out.println("gas");
+    }
+    in.close();
+  }
+}
