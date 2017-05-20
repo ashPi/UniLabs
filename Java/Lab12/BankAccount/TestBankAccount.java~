@@ -1,0 +1,41 @@
+/**
+ * A Test Class for the BankAccount class
+ * @author Silviya Tacheva
+ * @version 1.0 16/02/2017
+ */
+public class TestBankAccount 
+{
+  public static void main(String[] args) 
+  {
+    // Create an instance of the BankAccout class
+    // with name Silviya Tacheva
+    // and interest rate of 5.3
+    
+    BankAccount myAccount = new BankAccount("Silviya Tacheva", 5.3);
+    
+    //Test the getter methods
+    System.out.println("Name: " + myAccount.getName());
+    System.out.println("Balance: " + myAccount.getBalance());
+    System.out.println("Interest rate: " + myAccount.getInterest());
+    
+    //Test the setter methods
+    myAccount.setName("Miss Silviya M Tacheva");
+    myAccount.setBalance(500.29);
+    myAccount.setInterest(1.75);
+    
+    //Test the depositMoney() method 
+    myAccount.depositMoney(10.21);
+    System.out.peintln("\nUpdated balnce: " + myAccount.getBalance());
+    
+    //Test the withdrawMoney() method when funds are sufficient
+    myAccount.withdrawMoney(311);
+    System.out.println("\nUpdated balance: " + myAccount.getBalance());
+    
+    //Test the withdrawMoney() method when funds are insufficient
+    //Should display an alert
+    myAccount.withdrawMoney(200);
+    
+    //Test toString() method
+    System.out.println("\n" + myAccount.toString());
+  }
+}

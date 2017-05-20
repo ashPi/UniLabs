@@ -1,0 +1,100 @@
+/**
+ * A class which contains fields and methods
+ * associated with a letter
+ * @author SIlviya Tacheva
+ * @version 1.0 17/02/2017
+ */
+public class Letter 
+{
+  
+  /**
+   * The name of the sender
+   */
+  private String sender;
+  
+  /**
+   * The name of the recepient 
+   */
+  private String recepient;
+  
+  /**
+   * The content of the body of the letter
+   */
+  private String body = "";
+  
+  /**
+   * Constructor for a Letter
+   *@param from The name of the sender
+   * @param to The name of the recepient
+   */
+  public Letter(String from, String to) 
+  {
+    sender = from;
+    recepient = to;
+  }
+  
+  //------------Getter Methods-------------------
+  
+  /**
+   * Gets the name of the sender
+   * @return The name of the sender
+   */
+  public String getSender() 
+  {
+    return sender;
+  }
+  
+  /**
+   * Gets the name of the recepient
+   * @return The name of the recepient
+   */
+  private String getRecepient() 
+  {
+    return recepeient;
+  } 
+  
+  //------------Setter Methods-------------------
+  
+  /**
+   * Sets the name of the sender
+   * @param from The name of the sender
+   */
+  public void setSender(String from) 
+  {
+    sender = from;
+  }
+  
+  /**
+   * Sets the name of the recepient
+   * @param to The name of the recepient
+   */
+  public void setRecepient(String to) 
+  {
+    recepient = to;
+  }
+  
+  //------------Other Methods-------------------
+  
+  /**
+   * Adds a new line of text to the body of the letter
+   * @param line The content of the line 
+   */
+  public void addLine(String line) 
+  {
+    body+= line + "\n";
+  }
+  
+  /**
+   * Returns the entire text of the letter 
+   * @return The entire text of the letter
+   */
+  public String getText() 
+  {
+    String text = "Dear " + getRecepient();
+    text+="\n\n";
+    text+= body;
+    text+= "\n Sincerely, ";
+    text+= "\n\n" + getSender();
+    return text;
+  }
+}

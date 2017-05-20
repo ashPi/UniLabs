@@ -1,0 +1,13 @@
+/**
+ * A Test Class for UsedCar class
+ * @author Silviya Tacheva
+ * @version 1.0 16/02/2017
+ */
+public class TestUsedCar 
+{
+  public static void main(String[] args) 
+  {
+    //Create an instance of UsedCar
+    //with make
+  }
+}

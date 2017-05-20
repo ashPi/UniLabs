@@ -1,0 +1,85 @@
+/**
+ * A class stores the properties and methods 
+ * associated with a Football Team
+ * @author Silviya Tacheva
+ * @version 1.0 17/02/2017
+ */
+public class FootballTeam 
+{
+  
+  /**
+   * Surnames of the players
+   */
+  private String[5] players;
+  
+  /**
+   * The colour of the football kit
+   */
+  private String colour;
+  
+  /**
+   * Current goal difference
+   */
+  private int goalDifference;
+  
+  /**
+   * Information whether the team is still in the Challenge
+   */
+  private boolean inChallenge;
+  
+  /**
+   * Constructor for the FootballTeam object
+   */
+  public FootballTeam() 
+  {
+    for(int i = 0; i < players.length; i++) 
+    {
+      players[i] = "not assigned";
+    }
+    colour = "not assigned";
+    goalDifference = 0;
+    inChallenge = true;
+  }
+  
+  //------------Getter Methods-----------------
+  
+  /**
+   * Gets the surnames of the players 
+   * @return The surnames of the players
+   */
+  public String[] getPlayers() 
+  {
+    return players;
+  }
+  
+  /**
+   * Gets the colour of the football kit
+   * @return The colour of the kit
+   */
+  public String getColour() 
+  {
+    return colour;
+  }
+  
+  /**
+   * Gets the current goal difference
+   * @return The goal difference
+   */
+  public String getGoalDifference() 
+  {
+    return goalDifference;
+  }
+  
+  /**
+   * Gets the information whether the tema is still in the Challenge
+   * @return Information whether the team is in the Challenge
+   */
+  public boolean getInChallenge() 
+  {
+    return inChallenge;
+  }
+  
+  //------------Setter Methods-----------------
+  
+  
+}

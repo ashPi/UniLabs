@@ -1,0 +1,135 @@
+/**
+ * A class which stores the properties and methods 
+ * associated with a customer`s bank account
+ * @author Silviya Tacheva
+ * @version 1.0 16/02/2017
+ */
+public class BankAccount 
+{
+  
+  /**
+   * Customer`s name
+   */
+  private String name;
+  
+  /**
+   * The balance of money in the account
+   */
+  private double balance;
+  
+  /**
+   * Annual interest rate
+   */
+  private double interest;
+  
+  /*
+   * Constructor for the BankAccount object
+   * @param aName The customer`s name
+   * @interestRate The annual interest rate
+   */
+  public BankAcoount(String aName, double interestRate) 
+  {
+    name = aName;
+    balance = 0.00;
+    interest = interestRate;
+  }
+  
+  //------------Getter Methods-----------------
+  
+  /**
+   * Gets the name of the customer
+   * @return The name of the customer
+   */
+  public String getName() 
+  {
+    return name;
+  }
+  
+  /**
+   * Gets the balance of money in the account
+   * @return The balance of money
+   */
+  public double getBalance() 
+  {
+    return balance;
+  }
+  
+  /**
+   * Gets the annual interest rate
+   * @return The interest rate
+   */
+  private double getInterest() 
+  {
+    return interest;
+  }
+  
+  //------------Setter Methods-----------------
+  
+  /**
+   * Sets the name of the customer
+   * @param aName The name of the customer
+   */
+  public void setName(String aName) 
+  {
+    name = aName;
+  }
+  
+  /**
+   * Sets the balance of money in the account
+   * @param aBalance The balance of money
+   */
+  public void setBalance(double aBalance) 
+  {
+    balance = aBalance;
+  }
+  
+  /**
+   * Sets the annual interest rate
+   * @param interestRate the annual interest rate
+   */
+  public void setInterest(double interestRate) 
+  {
+    interest = interestRate;
+  }
+  
+  //------------Other Methods------------------
+  
+  /**
+   * Deposits money into the account
+   * @param deposit Sum of money to be deposited into the account
+   */
+  public void makeDeposit(double deposit) 
+  {
+    balance+= deposit;
+  }
+  
+  /**
+   * Checks the balance. If sufficient withdraws money, otherwise prints a warning
+   * @param withdrawalSum The sum to be withdrawn
+   */
+  public void withdrawMoney(double withdrawalSum) 
+  {
+    if(balance < withdrawalSum) 
+    {
+      System.out.println("Insufficient funds in the account to cover this withdrawal!");
+    }
+    else 
+    {
+      balance-= withdrawalSum;
+    }
+  }
+  
+  
+  
+  /**
+   * A string representation of the contents of the fields of a BankAccount object
+   * @return Information in the fields of a BanAccount
+   */
+  public String toString() 
+  {
+    String contents = "Customer`s name: " + getName();
+    contents+= "\nBalance of money: " + getBalance();
+    contents+= "\nAnnual interest rate of the account: " + getInterest();
+    return contents;
+  }
+}

@@ -1,0 +1,57 @@
+/**
+ * A model of a circle
+ * @author Silviya Tacheva
+ * @version 1.0 15/02/2017
+ */
+
+public class Circle 
+{
+  
+  /**
+   * The radius of the circle
+   */
+  private double radius;
+  private final double PI_VALUE = 3.14;
+  /**
+   * The constructor for the Circle object
+   * @param aRadius The radius of the circle
+   */
+  public Circle(double aRadius) 
+  {
+    radius = aRadius;
+  }
+  
+  //------------Getter Methods----------------- 
+  
+  /**
+   * Gets the radius
+   * @return The radius of the circle
+   */
+  public double getRadius() 
+  {
+    return radius;
+  }
+  
+  //------------Getter Methods-----------------
+  
+  /**
+   * Sets the radius of the circle
+   * @param aRadius The radius of the circle
+   */
+  public void setRadius(double aRadius) 
+  {
+    radius = aRadius;
+  }
+  
+  //------------Other Methods-----------------
+  
+  /**
+   * Returns a string representation of the contents of the fields of the Circle
+   * @return The information contained in the fields
+   */
+  public string toString() 
+  {
+    String contents = "The radius of the circle is " + getRadius();
+    return contents;
+  }
+}
